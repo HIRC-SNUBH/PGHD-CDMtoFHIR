@@ -1,0 +1,18 @@
+{
+	"resourceType": "Device",
+	"id": "45758275",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2022-04-04T07:20:48.515+00:00",
+		"source": "#bKMZNpx1DMvD2YRR"
+	},
+	"type": {
+		"coding": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"code": "462894001",
+				"display": "Patient health record information system application software"
+			}
+		]
+	}
+}

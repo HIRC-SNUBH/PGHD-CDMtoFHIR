@@ -1,0 +1,24 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "SNUBHCDMCodeSystem",
+	"meta": {
+		"versionId": "4",
+		"lastUpdated": "2022-03-25T07:33:43.665+00:00",
+		"source": "#ecOxrw7LarOnlxS1"
+	},
+	"url": "https://www.cdm.snubh.org/Atlas",
+	"name": "SNUBHCDMCodeSystem",
+	"title": "SNUBH CDM Code System",
+	"status": "draft",
+	"experimental": true,
+	"publisher": "Seoul National University Bundang Hospital",
+	"caseSensitive": true,
+	"content": "not-present",
+	"concept": [
+		{
+			"code": "SNUBH0050",
+			"display": "Health Questionnaire",
+			"definition": "Health Questionnaire"
+		}
+	]
+}

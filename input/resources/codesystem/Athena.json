@@ -1,0 +1,18 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "Athena",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-02-18T07:46:25.610+00:00",
+		"source": "#XQx7Qi6LrM5NgMBR"
+	},
+	"url": "https://athena.ohdsi.org/",
+	"version": "5.0",
+	"name": "Athena",
+	"title": "Athena",
+	"status": "draft",
+	"experimental": true,
+	"publisher": "Odysseus Data Services, Inc.",
+	"caseSensitive": true,
+	"content": "not-present"
+}

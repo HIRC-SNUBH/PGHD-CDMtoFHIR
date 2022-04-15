@@ -1,0 +1,43 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "PGHD-CDM-patient-address-city",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2022-03-29T01:03:50.416+00:00",
+		"source": "#cvAQ2rMAYurWBGxf"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-patient-address-city",
+	"version": "0.1",
+	"name": "PGHDCDMPatientAddressCity",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "주소-시",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "address-city",
+	"base": [
+		"Patient"
+	],
+	"type": "string",
+	"expression": "Patient.address.city",
+	"xpath": "f:Patient/f:address/f:city",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"modifier": [
+		"exact",
+		"contains"
+	]
+}
