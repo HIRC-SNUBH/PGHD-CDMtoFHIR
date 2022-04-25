@@ -1,0 +1,30 @@
+{
+	"resourceType": "ValueSet",
+	"id": "pghd-cdm-purposeofencounter",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T01:35:37.488+00:00",
+		"source": "#eNnUev8qOvs7DfRc"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-purposeofencounter",
+	"name": "PGHDCDMPurposeOfEncounter",
+	"title": "PGHD CDM PurposeOfEncounter",
+	"status": "draft",
+	"compose": {
+		"include": [
+			{
+				"system": "https://athena.ohdsi.org/",
+				"concept": [
+					{
+						"code": "OMOP4822464",
+						"display": "Visit derived from EHR record"
+					},
+					{
+						"code": "OMOP4822463",
+						"display": "Clinical Study visit"
+					}
+				]
+			}
+		]
+	}
+}

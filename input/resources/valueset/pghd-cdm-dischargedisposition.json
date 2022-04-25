@@ -1,0 +1,72 @@
+{
+	"resourceType": "ValueSet",
+	"id": "pghd-cdm-dischargedisposition",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T01:34:42.411+00:00",
+		"source": "#jkDaMJ7i49Y5JKfS"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-dischargedisposition",
+	"name": "PGHDCDMDischargeDisposition",
+	"title": "PGHD CDM DischargeDisposition",
+	"status": "draft",
+	"compose": {
+		"include": [
+			{
+				"system": "http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/PhysicianFeeSched/downloads//Website_POS_database.pdf",
+				"concept": [
+					{
+						"code": "12",
+						"display": "Home"
+					},
+					{
+						"code": "33",
+						"display": "Custodial Care Facility"
+					},
+					{
+						"code": "99",
+						"display": "Other Place of Service"
+					}
+				]
+			},
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"concept": [
+					{
+						"code": "16983000",
+						"display": "Death in hospital"
+					},
+					{
+						"code": "183955003",
+						"display": "Patient self-discharge"
+					},
+					{
+						"code": "266938001",
+						"display": "Hospital patient"
+					},
+					{
+						"code": "397709008",
+						"display": "Patient died"
+					},
+					{
+						"code": "75823008",
+						"display": "Discharge"
+					},
+					{
+						"code": "239531000000108",
+						"display": "Patient transfer from hospital to hospital"
+					}
+				]
+			},
+			{
+				"system": "https://athena.ohdsi.org/",
+				"concept": [
+					{
+						"code": "No matching concept",
+						"display": "No matching concept"
+					}
+				]
+			}
+		]
+	}
+}

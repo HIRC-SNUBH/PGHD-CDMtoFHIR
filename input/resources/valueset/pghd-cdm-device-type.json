@@ -1,0 +1,59 @@
+{
+	"resourceType": "ValueSet",
+	"id": "pghd-cdm-device-type",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T01:34:25.689+00:00",
+		"source": "#fPlvVRXqz6VYsEUl"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-device-type",
+	"name": "PGHDCDMDeviceType",
+	"title": "PGHD CDM DeviceType",
+	"status": "draft",
+	"compose": {
+		"include": [
+			{
+				"system": "https://www.cdm.snubh.org/Atlas",
+				"concept": [
+					{
+						"code": "SNUBH0009",
+						"display": "Lifelog platform : Samsumg S-Health"
+					},
+					{
+						"code": "SNUBH0010",
+						"display": "Lifelog platform : Apple Health-Kit"
+					},
+					{
+						"code": "SNUBH0011",
+						"display": "Lifelog platform : Google-Fitness"
+					},
+					{
+						"code": "SNUBH0034",
+						"display": "Werable device"
+					}
+				]
+			},
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"concept": [
+					{
+						"code": "462894001",
+						"display": "Patient health record information system application software"
+					},
+					{
+						"code": "464526001",
+						"display": "Scale weight"
+					},
+					{
+						"code": "337414009",
+						"display": "Blood glucose meter"
+					},
+					{
+						"code": "258057004",
+						"display": "Non-invasive blood pressure monitor"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,472 @@
+{
+	"resourceType": "ValueSet",
+	"id": "pghd-cdm-questionnaireresponsecodes",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T01:36:04.112+00:00",
+		"source": "#CpGAo1CNBL7XYGZf"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-questionnaireresponsecodes",
+	"name": "PGHDCDMQuestionnaireResponseCodes",
+	"title": "PGHD CDM QuestionnaireResponseCodes",
+	"status": "draft",
+	"compose": {
+		"include": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"concept": [
+					{
+						"code": "125725006",
+						"display": "Single, never married"
+					},
+					{
+						"code": "87915002",
+						"display": "Married"
+					},
+					{
+						"code": "266945001",
+						"display": "Broken with partner"
+					},
+					{
+						"code": "33553000",
+						"display": "Widowed"
+					},
+					{
+						"code": "342271000000107",
+						"display": "Educated to primary school level"
+					},
+					{
+						"code": "224296007",
+						"display": "Educated to junior school level"
+					},
+					{
+						"code": "473461003",
+						"display": "Educated to high school level"
+					},
+					{
+						"code": "224300008",
+						"display": "Received university education"
+					},
+					{
+						"code": "426769009",
+						"display": "Received graduate education"
+					},
+					{
+						"code": "8392000",
+						"display": "Non-smoker"
+					},
+					{
+						"code": "8517006",
+						"display": "Ex-smoker"
+					},
+					{
+						"code": "77176002",
+						"display": "Smoker"
+					},
+					{
+						"code": "230122008",
+						"display": "Calcium sulfate"
+					},
+					{
+						"code": "286614006",
+						"display": "Iron intake"
+					},
+					{
+						"code": "715036001",
+						"display": "Does not take medication"
+					},
+					{
+						"code": "230690007",
+						"display": "Cerebrovascular accident"
+					},
+					{
+						"code": "49601007",
+						"display": "Disorder of cardiovascular system"
+					},
+					{
+						"code": "38341003",
+						"display": "Hypertensive disorder"
+					},
+					{
+						"code": "73211009",
+						"display": "Diabetes mellitus"
+					},
+					{
+						"code": "13644009",
+						"display": "Hypercholesterolemia"
+					},
+					{
+						"code": "363349007",
+						"display": "Malignant tumor of stomach"
+					},
+					{
+						"code": "363358000",
+						"display": "Malignant tumor of lung"
+					},
+					{
+						"code": "235856003",
+						"display": "Disease of liver"
+					},
+					{
+						"code": "363510005",
+						"display": "Malignant tumor of large intestine"
+					},
+					{
+						"code": "254837009",
+						"display": "Malignant tumor of breast"
+					},
+					{
+						"code": "363443007",
+						"display": "Malignant tumor of ovary"
+					},
+					{
+						"code": "399068003",
+						"display": "Malignant tumor of prostate"
+					},
+					{
+						"code": "363478007",
+						"display": "Malignant tumor of thyroid gland"
+					},
+					{
+						"code": "363418001",
+						"display": "Malignant tumor of pancreas"
+					},
+					{
+						"code": "363346000",
+						"display": "Malignant neoplastic disease"
+					},
+					{
+						"code": "52448006",
+						"display": "Dementia"
+					},
+					{
+						"code": "93870000",
+						"display": "Malignant neoplasm of liver"
+					},
+					{
+						"code": "363354003",
+						"display": "Malignant tumor of cervix"
+					},
+					{
+						"code": "700363003",
+						"display": "No history of malignant neoplastic disease"
+					},
+					{
+						"code": "197321007",
+						"display": "Steatosis of liver"
+					},
+					{
+						"code": "22298006",
+						"display": "Myocardial infarction"
+					},
+					{
+						"code": "422504002",
+						"display": "Ischemic stroke"
+					},
+					{
+						"code": "19943007",
+						"display": "Cirrhosis of liver"
+					},
+					{
+						"code": "39621005",
+						"display": "Disorder of gallbladder"
+					},
+					{
+						"code": "397825006",
+						"display": "Gastric ulcer"
+					},
+					{
+						"code": "14304000",
+						"display": "Disorder of thyroid gland"
+					},
+					{
+						"code": "56717001",
+						"display": "Tuberculosis"
+					},
+					{
+						"code": "195967001",
+						"display": "Asthma"
+					},
+					{
+						"code": "30281009",
+						"display": "Disorder of prostate"
+					},
+					{
+						"code": "371405004",
+						"display": "Disorder of eye"
+					},
+					{
+						"code": "90708001",
+						"display": "Kidney disease"
+					},
+					{
+						"code": "64859006",
+						"display": "Osteoporosis"
+					},
+					{
+						"code": "3723001",
+						"display": "Arthritis"
+					},
+					{
+						"code": "36427004",
+						"display": "Intervertebral disc disorder"
+					},
+					{
+						"code": "76107001",
+						"display": "Spinal stenosis"
+					},
+					{
+						"code": "443508001",
+						"display": "No history of clinical finding in subject"
+					}
+				]
+			},
+			{
+				"system": "http://loinc.org/downloads/loinc",
+				"concept": [
+					{
+						"code": "LA6270-8",
+						"display": "Never"
+					},
+					{
+						"code": "LA18933-4",
+						"display": "Less than monthly"
+					},
+					{
+						"code": "LA18876-5",
+						"display": "Monthly"
+					},
+					{
+						"code": "LA18891-4",
+						"display": "Weekly"
+					},
+					{
+						"code": "LA18934-2",
+						"display": "Daily or almost daily"
+					},
+					{
+						"code": "LA15792-7",
+						"display": "Within 5 minutes (3 points)"
+					},
+					{
+						"code": "LA15793-5",
+						"display": "6-30 minutes (2 points)"
+					},
+					{
+						"code": "LA15794-3",
+						"display": "31-60 minutes (1 point)"
+					},
+					{
+						"code": "LA15795-0",
+						"display": "After 60 minutes (0 points)"
+					},
+					{
+						"code": "LA33-6",
+						"display": "Yes"
+					},
+					{
+						"code": "LA32-8",
+						"display": "No"
+					},
+					{
+						"code": "LA14314-1",
+						"display": "Yes, plan to stop within next 30 days"
+					},
+					{
+						"code": "LA14315-8",
+						"display": "Yes, plan to stop within next 6 months, but not within next 30 days"
+					},
+					{
+						"code": "LA18388-1",
+						"display": "Yes, sometimes"
+					},
+					{
+						"code": "LA14316-6",
+						"display": "No, not thinking of quitting In next 6 months"
+					},
+					{
+						"code": "LA14328-1",
+						"display": "No, was not advised to quit"
+					},
+					{
+						"code": "LA14508-8",
+						"display": "Never or nearly never"
+					},
+					{
+						"code": "LA14507-0",
+						"display": "1-2 times a month"
+					},
+					{
+						"code": "LA14506-2",
+						"display": "1-2 times a week"
+					},
+					{
+						"code": "LA14505-4",
+						"display": "3-4 times a week"
+					},
+					{
+						"code": "LA10066-1",
+						"display": "Rarely"
+					},
+					{
+						"code": "LA10082-8",
+						"display": "Sometimes"
+					},
+					{
+						"code": "LA10044-8",
+						"display": "Often"
+					},
+					{
+						"code": "LA9933-8",
+						"display": "Always"
+					},
+					{
+						"code": "LA6568-5",
+						"display": "Not at all"
+					},
+					{
+						"code": "LA6569-3",
+						"display": "Several days"
+					},
+					{
+						"code": "LA6570-1",
+						"display": "More than half the days"
+					},
+					{
+						"code": "LA6571-9",
+						"display": "Nearly every day"
+					},
+					{
+						"code": "LA27722-0",
+						"display": "Less than once a week"
+					},
+					{
+						"code": "LA18928-4",
+						"display": "2-3 times a week"
+					},
+					{
+						"code": "LA18929-2",
+						"display": "4 or more times a week"
+					},
+					{
+						"code": "LA30132-7",
+						"display": "5 or more times a week"
+					},
+					{
+						"code": "LA15126-8",
+						"display": "Prescription medicine (other than water pill) for high blood pressure"
+					},
+					{
+						"code": "LA15128-4",
+						"display": "Prescription medicine for diabetes"
+					},
+					{
+						"code": "58293-2",
+						"display": "Taken medication for high blood cholesterol"
+					},
+					{
+						"code": "LA26702-3",
+						"display": "Aspirin"
+					},
+					{
+						"code": "LA30298-6",
+						"display": "Anticoagulant"
+					},
+					{
+						"code": "LA4002-7",
+						"display": "Hormone Therapy Administered"
+					},
+					{
+						"code": "LA14348-9",
+						"display": "Naproxen, ketoprofen or other non-steroidal"
+					},
+					{
+						"code": "LA15872-7",
+						"display": "Sedatives, for example, sleeping pills, barbiturates, seconal, quaaludes, or chloral hydrate"
+					},
+					{
+						"code": "LA15130-0",
+						"display": "Prescription medicine for depression or anxiety"
+					},
+					{
+						"code": "LA16117-6",
+						"display": "Vitamins or minerals"
+					},
+					{
+						"code": "LA20273-1",
+						"display": "Dietary supplements (other than vitamins or minerals)"
+					},
+					{
+						"code": "30964-1",
+						"display": "Other medications"
+					},
+					{
+						"code": "LA19526-5",
+						"display": "Other/Unknown"
+					},
+					{
+						"code": "LA18926-8",
+						"display": "Monthly of less"
+					},
+					{
+						"code": "LA18927-6",
+						"display": "2-4 times a month"
+					},
+					{
+						"code": "LA15694-5",
+						"display": "1 or 2"
+					},
+					{
+						"code": "LA15695-2",
+						"display": "3 or 4"
+					},
+					{
+						"code": "LA18930-0",
+						"display": "5 or 6"
+					},
+					{
+						"code": "LA18931-8",
+						"display": "7 to 9"
+					},
+					{
+						"code": "LA18932-6",
+						"display": "10 or more"
+					}
+				]
+			},
+			{
+				"system": "https://www.cdm.snubh.org/Atlas",
+				"concept": [
+					{
+						"code": "SNUBH0052",
+						"display": "I eat three meals almost every day."
+					},
+					{
+						"code": "SNUBH0053",
+						"display": "There are 1-2 days a week for skipping meals."
+					},
+					{
+						"code": "SNUBH0054",
+						"display": "There are more than three times a week for skipping meals."
+					},
+					{
+						"code": "SNUBH0055",
+						"display": "Very fast(10 minutes or less)"
+					},
+					{
+						"code": "SNUBH0056",
+						"display": "Faily fast(15 minutes or less)"
+					},
+					{
+						"code": "SNUBH0057",
+						"display": "Moderate or slow(20 minutes or more)"
+					},
+					{
+						"code": "SNUBH0058",
+						"display": "Twice a week or less"
+					}
+				]
+			}
+		]
+	}
+}
