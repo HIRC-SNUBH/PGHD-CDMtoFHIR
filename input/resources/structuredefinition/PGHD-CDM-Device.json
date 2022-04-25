@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "PGHD-CDM-Device",
+	"id": "pghd-cdm-device",
 	"meta": {
-		"versionId": "6",
-		"lastUpdated": "2022-04-07T01:58:14.123+00:00",
-		"source": "#AR41aqYArswMAMY2"
+		"versionId": "3",
+		"lastUpdated": "2022-04-20T01:59:00.602+00:00",
+		"source": "#OgTyozHrPH9DE6cT"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Device",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device",
 	"version": "0.1",
 	"name": "PGHDCDMDeviceProfile",
 	"title": "PGHD CDM Device Profile",
@@ -41,7 +41,7 @@
 				"mustSupport": true,
 				"binding": {
 					"strength": "extensible",
-					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-Device-Type"
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-device-type"
 				}
 			},
 			{

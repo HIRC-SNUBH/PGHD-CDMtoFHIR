@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-deviceusestatement-subject",
+	"id": "pghd-cdm-deviceusestatement-subject",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:01:06.786+00:00",
 		"source": "#vMepboq0AsaYwTEB"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-deviceusestatement-subject",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-deviceusestatement-subject",
 	"version": "0.1",
 	"name": "PGHDCDMDeviceUseStatementSubject",
 	"status": "draft",

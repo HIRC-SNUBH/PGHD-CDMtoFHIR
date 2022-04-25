@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "PGHD-CDM-Encounter",
+	"id": "pghd-cdm-encounter",
 	"meta": {
-		"versionId": "7",
-		"lastUpdated": "2022-04-04T08:49:59.932+00:00",
-		"source": "#9i3VqWLbScelHLFG"
+		"versionId": "3",
+		"lastUpdated": "2022-04-20T01:48:46.138+00:00",
+		"source": "#rb2X9SmSvebBoGWu"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Encounter",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-encounter",
 	"version": "0.1",
 	"name": "PGHDCDMEncounterProfile",
 	"title": "PGHD CDM Encounter Profile",
@@ -45,7 +45,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-VisitType"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-visittype"
 						]
 					}
 				],
@@ -65,7 +65,7 @@
 				"binding": {
 					"strength": "extensible",
 					"description": "IMP(inpatient encounter) | AMB(ambulatory) | EMER(emergency)",
-					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-ActEncounterCode"
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-actencountercode"
 				}
 			},
 			{
@@ -76,7 +76,7 @@
 					{
 						"code": "Reference",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Patient"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-patient"
 						]
 					}
 				],
@@ -104,7 +104,7 @@
 				"mustSupport": true,
 				"binding": {
 					"strength": "extensible",
-					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-AdmitSource"
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-admitsource"
 				}
 			},
 			{
@@ -115,7 +115,7 @@
 				"mustSupport": true,
 				"binding": {
 					"strength": "extensible",
-					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-DischargeDisposition"
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-dischargedisposition"
 				}
 			},
 			{
@@ -126,7 +126,7 @@
 					{
 						"code": "Reference",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Organization"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-organization"
 						]
 					}
 				],

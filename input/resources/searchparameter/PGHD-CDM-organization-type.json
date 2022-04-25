@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-organization-type",
+	"id": "pghd-cdm-organization-type",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:12:36.325+00:00",
 		"source": "#Fkk6fH7fhsQLLYJm"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-organization-type",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-organization-type",
 	"version": "0.1",
 	"name": "PGHDCDMOrganizationType",
 	"status": "draft",

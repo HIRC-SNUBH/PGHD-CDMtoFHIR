@@ -1,12 +1,12 @@
 {
 	"resourceType": "ValueSet",
-	"id": "PGHD-CDM-QuestionnaireCodes",
+	"id": "pghd-cdm-questionnairecodes",
 	"meta": {
-		"versionId": "4",
-		"lastUpdated": "2022-04-06T07:06:57.477+00:00",
-		"source": "#l9L5GLwQqdrLSOaj"
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T02:16:17.715+00:00",
+		"source": "#sXbop10cTEKY5VMd"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-QuestionnaireCodes",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-questionnairecodes",
 	"name": "PGHDCDMQuestionnaireCodes",
 	"title": "PGHD CDM QuestionnaireCodes",
 	"status": "draft",

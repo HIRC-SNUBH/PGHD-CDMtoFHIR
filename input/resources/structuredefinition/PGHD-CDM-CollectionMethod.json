@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "PGHD-CDM-CollectionMethod",
+	"id": "pghd-cdm-collectionmethod",
 	"meta": {
-		"versionId": "6",
-		"lastUpdated": "2022-04-04T08:23:32.967+00:00",
-		"source": "#XSWxN2cYVKxaH4hR"
+		"versionId": "3",
+		"lastUpdated": "2022-04-20T08:44:44.192+00:00",
+		"source": "#128mYY2dms9CdAYz"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-CollectionMethod",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod",
 	"version": "0.1",
 	"name": "PGHDCDMCollectionMethodExtension",
 	"title": "PGHD CDM CollectionMethod Extension",
@@ -43,7 +43,7 @@
 						"code": "uri"
 					}
 				],
-				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-CollectionMethod"
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod"
 			},
 			{
 				"id": "Extension.value[x]",

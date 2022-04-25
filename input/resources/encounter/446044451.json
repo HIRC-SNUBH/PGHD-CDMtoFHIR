@@ -2,16 +2,16 @@
 	"resourceType": "Encounter",
 	"id": "446044451",
 	"meta": {
-		"versionId": "5",
-		"lastUpdated": "2022-04-04T08:29:28.587+00:00",
-		"source": "#rTb3uGLeHqssOyxv",
+		"versionId": "6",
+		"lastUpdated": "2022-04-20T07:27:00.363+00:00",
+		"source": "#TEP2fcZmJkFeDvEn",
 		"profile": [
-			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Encounter"
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-encounter"
 		]
 	},
 	"extension": [
 		{
-			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-VisitType",
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-visittype",
 			"valueCoding": {
 				"system": "https://athena.ohdsi.org/",
 				"code": "OMOP4822464",

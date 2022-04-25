@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-questionnaireresponse-questionnaire-status",
+	"id": "pghd-cdm-questionnaireresponse-questionnaire-status",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:05:03.146+00:00",
 		"source": "#AxvbIKYwBZBv59rC"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-questionnaireresponse-questionnaire-status",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaireresponse-questionnaire-status",
 	"version": "0.1",
 	"name": "PGHDCDMQuestionnaireResponseQuestionnaireStatus",
 	"status": "draft",

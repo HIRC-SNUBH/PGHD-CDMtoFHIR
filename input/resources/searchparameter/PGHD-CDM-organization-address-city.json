@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-organization-address-city",
+	"id": "pghd-cdm-organization-address-city",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:03:20.213+00:00",
 		"source": "#f9JPien5LQT3K9DF"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-organization-address-city",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-organization-address-city",
 	"version": "0.1",
 	"name": "PGHDCDMOrganizationAddressCity",
 	"status": "draft",

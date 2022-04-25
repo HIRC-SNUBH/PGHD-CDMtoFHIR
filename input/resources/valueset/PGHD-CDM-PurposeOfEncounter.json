@@ -1,12 +1,12 @@
 {
 	"resourceType": "ValueSet",
-	"id": "PGHD-CDM-PurposeOfEncounter",
+	"id": "pghd-cdm-purposeofencounter",
 	"meta": {
 		"versionId": "2",
-		"lastUpdated": "2022-03-30T04:29:08.764+00:00",
-		"source": "#lv33wJhWAmXHfsKR"
+		"lastUpdated": "2022-04-20T01:35:37.488+00:00",
+		"source": "#eNnUev8qOvs7DfRc"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-PurposeOfEncounter",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-purposeofencounter",
 	"name": "PGHDCDMPurposeOfEncounter",
 	"title": "PGHD CDM PurposeOfEncounter",
 	"status": "draft",

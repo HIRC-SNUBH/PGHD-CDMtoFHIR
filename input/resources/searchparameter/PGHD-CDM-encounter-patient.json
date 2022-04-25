@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-encounter-patient",
+	"id": "pghd-cdm-encounter-patient",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:08:24.872+00:00",
 		"source": "#WU1Egnq73xBiBrv2"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-encounter-patient",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-encounter-patient",
 	"version": "0.1",
 	"name": "PGHDCDMEncounterPatient",
 	"status": "draft",

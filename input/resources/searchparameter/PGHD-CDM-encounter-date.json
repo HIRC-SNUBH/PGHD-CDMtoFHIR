@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-encounter-date",
+	"id": "pghd-cdm-encounter-date",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:08:02.609+00:00",
 		"source": "#sMcePMGJCsn4fxyT"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-encounter-date",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-encounter-date",
 	"version": "0.1",
 	"name": "PGHDCDMEncounterDate",
 	"status": "draft",

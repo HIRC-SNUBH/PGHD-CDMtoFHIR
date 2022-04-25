@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "PGHD-CDM-questionnaireresponse-authored",
+	"id": "pghd-cdm-questionnaireresponse-authored",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:14:13.416+00:00",
 		"source": "#MhapHkvsMFy8XgrJ"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-questionnaireresponse-authored",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaireresponse-authored",
 	"version": "0.1",
 	"name": "PGHDCDMQuestionnaireResponseAuthored",
 	"status": "draft",

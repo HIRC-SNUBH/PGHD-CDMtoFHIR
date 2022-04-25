@@ -1,16 +1,16 @@
 {
-	"id": "SNUBH.CDM.PGHD.to.FHIR",
+	"id": "snubh.cdm.pghd.to.fhir",
 	"meta": {
-		"versionId": "556",
-		"lastUpdated": "2022-04-07T01:39:38.020+00:00",
-		"source": "#3B1Gs1A6z9hV3Zoo"
+		"versionId": "648",
+		"lastUpdated": "2022-04-21T01:35:50.320+00:00",
+		"source": "#hX4SxvSpCxm06GLn"
 	},
 	"resourceType": "ImplementationGuide",
 	"status": "draft",
 	"fhirVersion": [
 		"4.0.1"
 	],
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ImplementationGuide/SNUBH.CDM.PGHD.to.FHIR",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ImplementationGuide/snubh.cdm.pghd.to.fhir",
 	"version": "1.0.0",
 	"name": "CDMPGHDToFHIR",
 	"title": "CDM PGHD to FHIR",
@@ -55,7 +55,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-Patient",
+					"reference": "StructureDefinition/pghd-cdm-patient",
 					"display": "PGHD CDM Patient Profile"
 				},
 				"name": "PGHD CDM Patient Profile",
@@ -64,7 +64,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-VisitType",
+					"reference": "StructureDefinition/pghd-cdm-visittype",
 					"display": "PGHD CDM VisitType Extension"
 				},
 				"name": "PGHD CDM VisitType Extension"
@@ -72,7 +72,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-Organization",
+					"reference": "StructureDefinition/pghd-cdm-organization",
 					"display": "PGHD CDM Organization Profile"
 				},
 				"name": "PGHD CDM Organization Profile",
@@ -81,7 +81,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-Device",
+					"reference": "StructureDefinition/pghd-cdm-device",
 					"display": "PGHD CDM Device Profile"
 				},
 				"name": "PGHD CDM Device Profile",
@@ -90,7 +90,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-Questionnaire",
+					"reference": "StructureDefinition/pghd-cdm-questionnaire",
 					"display": "PGHD CDM Questionnaire Profile"
 				},
 				"name": "PGHD CDM Questionnaire Profile",
@@ -117,8 +117,8 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "CodeSystem/CMSPlaceofServiceCodes",
-					"display": "CMS Place of Service Codes (POS)"
+					"reference": "CodeSystem/cmsplaceofservicecodes",
+					"display": "Place of Service Codes for Professional Claims(CMS)"
 				},
 				"name": "Place of Service Codes for Professional Claims(CMS)",
 				"description": "Place of Service Codes are two-digit codes placed on health care professional claims to indicate the setting in which a service was provided. The Centers for Medicare & Medicaid Services (CMS) maintain POS codes used throughout the health care industry.\n\nThis code set is required for use in the implementation guide adopted as the national standard for electronic transmission of professional health care claims under the provisions of the Health Insurance Portability and Accountability Act of 1996 (HIPAA). HIPAA directed the Secretary of HHS to adopt national standards for electronic transactions. These standard transactions require all health plans and providers to use standard code sets to populate data elements in each transaction. The Transaction and Code Set Rule adopted the ASC X12N-837 Health Care Claim: Professional, volumes 1 and 2, version 4010, as the standard for electronic submission of professional claims. This standard names the POS code set currently maintained by CMS as the code set to be used for describing sites of service in such claims. POS information is often needed to determine the acceptability of direct billing of Medicare, Medicaid and private insurance services provided by a given provider.\n\nCurrent codes can be obtained [here](https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set)"
@@ -144,23 +144,23 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-ActEncounterCode",
-					"display": "PGHDCDMActEncounterCode"
+					"reference": "ValueSet/pghd-cdm-actencountercode",
+					"display": "PGHD CDM ActEncounterCode"
 				},
 				"name": "PGHD CDM ActEncounterCode"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-AdmitSource",
-					"display": "PGHDCDMAdmitSource"
+					"reference": "ValueSet/pghd-cdm-admitsource",
+					"display": "PGHD CDM AdmitSource"
 				},
 				"name": "PGHD CDM AdmitSource"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-DeviceType",
+					"reference": "StructureDefinition/pghd-cdm-devicetype",
 					"display": "PGHD CDM DeviceType Extension"
 				},
 				"name": "PGHD CDM DeviceType Extension"
@@ -168,7 +168,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-DeviceUseStartTiming",
+					"reference": "StructureDefinition/pghd-cdm-deviceusestarttiming",
 					"display": "PGHD CDM DeviceUseStartTiming Extension"
 				},
 				"name": "PGHD CDM DeviceUseStartTiming Extension"
@@ -176,7 +176,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-DeviceUseEndTiming",
+					"reference": "StructureDefinition/pghd-cdm-deviceuseendtiming",
 					"display": "PGHD CDM DeviceUseEndTiming Extension"
 				},
 				"name": "PGHD CDM DeviceUseEndTiming Extension"
@@ -184,7 +184,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-RespondentType",
+					"reference": "StructureDefinition/pghd-cdm-respondenttype",
 					"display": "PGHD CDM RespondentType Extension"
 				},
 				"name": "PGHD CDM RespondentType Extension"
@@ -192,7 +192,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-CollectionMethod",
+					"reference": "StructureDefinition/pghd-cdm-collectionmethod",
 					"display": "PGHD CDM CollectionMethod Extension"
 				},
 				"name": "PGHD CDM CollectionMethod Extension"
@@ -200,7 +200,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-TimingSource",
+					"reference": "StructureDefinition/pghd-cdm-timingsource",
 					"display": "PGHD CDM TimingSource Extension"
 				},
 				"name": "PGHD CDM TimingSource Extension"
@@ -208,7 +208,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-CollectionMethodSource",
+					"reference": "StructureDefinition/pghd-cdm-collectionmethodsource",
 					"display": "PGHD CDM CollectionMethodSource Extension"
 				},
 				"name": "PGHD CDM CollectionMethodSource Extension"
@@ -216,7 +216,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-Observation",
+					"reference": "StructureDefinition/pghd-cdm-observation",
 					"display": "PGHD CDM Observation Profile"
 				},
 				"name": "PGHD CDM Observation Profile",
@@ -225,63 +225,63 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-DischargeDisposition",
-					"display": "PGHDCDMDischargeDisposition"
+					"reference": "ValueSet/pghd-cdm-dischargedisposition",
+					"display": "PGHD CDM DischargeDisposition"
 				},
 				"name": "PGHD CDM DischargeDisposition"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-PurposeOfEncounter",
-					"display": "PGHDCDMPurposeOfEncounter"
+					"reference": "ValueSet/pghd-cdm-purposeofencounter",
+					"display": "PGHD CDM PurposeOfEncounter"
 				},
 				"name": "PGHD CDM PurposeOfEncounter"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-Device-Type",
-					"display": "PGHDCDMDeviceType"
+					"reference": "ValueSet/pghd-cdm-device-type",
+					"display": "PGHD CDM DeviceType"
 				},
 				"name": "PGHD CDM DeviceType"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-ObservationCodes",
-					"display": "PGHDCDMObservationCodes"
+					"reference": "ValueSet/pghd-cdm-observationcodes",
+					"display": "PGHD CDM ObservationCodes"
 				},
 				"name": "PGHD CDM ObservationCodes"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-ObsCompComponentCodes",
-					"display": "PGHDCDMObsCompComponentCodes"
+					"reference": "ValueSet/pghd-cdm-obscompcomponentcodes",
+					"display": "PGHD CDM ObsCompComponentCodes"
 				},
 				"name": "PGHD CDM ObsCompComponentCodes"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-QuestionnaireCodes",
-					"display": "PGHDCDMQuestionnaireCodes"
+					"reference": "ValueSet/pghd-cdm-questionnairecodes",
+					"display": "PGHD CDM QuestionnaireCodes"
 				},
 				"name": "PGHD CDM QuestionnaireCodes"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "ValueSet/PGHD-CDM-QuestionnaireResponseCodes",
-					"display": "PGHDCDMQuestionnaireResponseCodes"
+					"reference": "ValueSet/pghd-cdm-questionnaireresponsecodes",
+					"display": "PGHD CDM QuestionnaireResponseCodes"
 				},
 				"name": "PGHD CDM QuestionnaireResponse Profile"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "CodeSystem/Athena",
+					"reference": "CodeSystem/athena",
 					"display": "Athena"
 				},
 				"name": "Athena"
@@ -289,7 +289,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "CodeSystem/SNUBHCDMCodeSystem",
+					"reference": "CodeSystem/snubhcdmcodesystem",
 					"display": "SNUBH CDM Code System"
 				},
 				"name": "SNUBH CDM Code System"
@@ -297,7 +297,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-Encounter",
+					"reference": "StructureDefinition/pghd-cdm-encounter",
 					"display": "PGHD CDM Encounter Profile"
 				},
 				"name": "PGHD CDM Encounter Profile"
@@ -305,7 +305,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-DeviceUseStatement",
+					"reference": "StructureDefinition/pghd-cdm-deviceusestatement",
 					"display": "PGHD CDM DeviceUseStatement Profile"
 				},
 				"name": "PGHD CDM DeviceUseStatement Profile"
@@ -313,15 +313,15 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-ObservationComponent",
-					"display": "PGHD CDM Observation Component Profile"
+					"reference": "StructureDefinition/pghd-cdm-observationcomponent",
+					"display": "PGHD CDM ObservationComponent Profile"
 				},
 				"name": "PGHD CDM ObservationComponent Profile"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-id",
+					"reference": "SearchParameter/pghd-cdm-patient-id",
 					"display": "PGHDCDMPatientId"
 				},
 				"name": "PGHDCDMPatientId",
@@ -330,7 +330,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-address-city",
+					"reference": "SearchParameter/pghd-cdm-patient-address-city",
 					"display": "PGHDCDMPatientAddressCity"
 				},
 				"name": "PGHDCDMPatientAddressCity",
@@ -339,7 +339,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-gender",
+					"reference": "SearchParameter/pghd-cdm-patient-gender",
 					"display": "PGHDCDMPatientGender"
 				},
 				"name": "PGHDCDMPatientGender",
@@ -348,7 +348,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-address",
+					"reference": "SearchParameter/pghd-cdm-patient-address",
 					"display": "PGHDCDMPatientAddress"
 				},
 				"name": "PGHDCDMPatientAddress",
@@ -357,7 +357,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-organization",
+					"reference": "SearchParameter/pghd-cdm-patient-organization",
 					"display": "PGHDCDMPatientOrganization"
 				},
 				"name": "PGHDCDMPatientOrganization",
@@ -366,7 +366,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-identifier",
+					"reference": "SearchParameter/pghd-cdm-patient-identifier",
 					"display": "PGHDCDMPatientIdentifier"
 				},
 				"name": "PGHDCDMPatientIdentifier",
@@ -375,7 +375,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-birthdate",
+					"reference": "SearchParameter/pghd-cdm-patient-birthdate",
 					"display": "PGHDCDMPatientBirthDate"
 				},
 				"name": "PGHDCDMPatientBirthDate",
@@ -384,7 +384,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-death-date",
+					"reference": "SearchParameter/pghd-cdm-patient-death-date",
 					"display": "PGHDCDMPatientDeathDate"
 				},
 				"name": "PGHDCDMPatientDeathDate",
@@ -393,7 +393,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-address-state",
+					"reference": "SearchParameter/pghd-cdm-patient-address-state",
 					"display": "PGHDCDMPatientAddressState"
 				},
 				"name": "PGHDCDMPatientAddressState",
@@ -402,7 +402,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-patient-address-postalcode",
+					"reference": "SearchParameter/pghd-cdm-patient-address-postalcode",
 					"display": "PGHDCDMPatientAddressPostalCode"
 				},
 				"name": "PGHDCDMPatientAddressPostalCode",
@@ -428,7 +428,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-deviceusestatement-id",
+					"reference": "SearchParameter/pghd-cdm-deviceusestatement-id",
 					"display": "PGHDCDMDeviceUseStatementId"
 				},
 				"name": "PGHDCDMDeviceUseStatementId",
@@ -437,7 +437,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-deviceusestatement-devicetype",
+					"reference": "SearchParameter/pghd-cdm-deviceusestatement-devicetype",
 					"display": "PGHDCDMDeviceUseStatementDeviceType"
 				},
 				"name": "PGHDCDMDeviceUseStatementDeviceType",
@@ -446,7 +446,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-deviceusestatement-subject",
+					"reference": "SearchParameter/pghd-cdm-deviceusestatement-subject",
 					"display": "PGHDCDMDeviceUseStatementSubject"
 				},
 				"name": "PGHDCDMDeviceUseStatementSubject",
@@ -455,7 +455,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-deviceusestatement-patient",
+					"reference": "SearchParameter/pghd-cdm-deviceusestatement-patient",
 					"display": "PGHDCDMDeviceUseStatementPatient"
 				},
 				"name": "PGHDCDMDeviceUseStatementPatient",
@@ -464,7 +464,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-status",
+					"reference": "SearchParameter/pghd-cdm-encounter-status",
 					"display": "PGHDCDMEncounterStatus"
 				},
 				"name": "PGHDCDMEncounterStatus",
@@ -473,7 +473,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-patient",
+					"reference": "SearchParameter/pghd-cdm-encounter-patient",
 					"display": "PGHDCDMEncounterPatient"
 				},
 				"name": "PGHDCDMEncounterPatient",
@@ -482,7 +482,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-id",
+					"reference": "SearchParameter/pghd-cdm-encounter-id",
 					"display": "PGHDCDMEncounterId"
 				},
 				"name": "PGHDCDMEncounterId",
@@ -491,7 +491,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-subject",
+					"reference": "SearchParameter/pghd-cdm-encounter-subject",
 					"display": "PGHDCDMEncounterSubject"
 				},
 				"name": "PGHDCDMEncounterSubject",
@@ -500,7 +500,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-class",
+					"reference": "SearchParameter/pghd-cdm-encounter-class",
 					"display": "PGHDCDMEncounterClass"
 				},
 				"name": "PGHDCDMEncounterClass",
@@ -509,7 +509,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-serviceprovider",
+					"reference": "SearchParameter/pghd-cdm-encounter-serviceprovider",
 					"display": "PGHDCDMEncounterServiceProvider"
 				},
 				"name": "PGHDCDMEncounterServiceProvider",
@@ -518,7 +518,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-encounter-date",
+					"reference": "SearchParameter/pghd-cdm-encounter-date",
 					"display": "PGHDCDMEncounterDate"
 				},
 				"name": "PGHDCDMEncounterDate",
@@ -527,7 +527,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-id",
+					"reference": "SearchParameter/pghd-cdm-observation-id",
 					"display": "PGHDCDMObservationId"
 				},
 				"name": "PGHDCDMObservationId",
@@ -536,7 +536,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-date",
+					"reference": "SearchParameter/pghd-cdm-observation-date",
 					"display": "PGHDCDMObservationDate"
 				},
 				"name": "PGHDCDMObservationDate",
@@ -545,7 +545,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-device-type",
+					"reference": "SearchParameter/pghd-cdm-observation-device-type",
 					"display": "PGHDCDMObservationDeviceType"
 				},
 				"name": "PGHDCDMObservationDeviceType",
@@ -554,7 +554,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-patient-gender",
+					"reference": "SearchParameter/pghd-cdm-observation-patient-gender",
 					"display": "PGHDCDMObservationPatientGender"
 				},
 				"name": "PGHDCDMObservationPatientGender",
@@ -563,7 +563,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-contained",
+					"reference": "SearchParameter/pghd-cdm-observation-contained",
 					"display": "PGHDCDMObservationContained"
 				},
 				"name": "PGHDCDMObservationContained",
@@ -572,7 +572,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-code",
+					"reference": "SearchParameter/pghd-cdm-observation-code",
 					"display": "PGHDCDMObservationCode"
 				},
 				"name": "PGHDCDMObservationCode",
@@ -581,16 +581,16 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-device-use-end-timing",
-					"display": "PGHDCDMObservationDeviceEndStartTiming"
+					"reference": "SearchParameter/pghd-cdm-observation-device-use-end-timing",
+					"display": "PGHDCDMObservationDeviceUseEndTiming"
 				},
-				"name": "PGHDCDMObservationDeviceEndStartTiming",
+				"name": "PGHDCDMObservationDeviceUseEndTiming",
 				"description": "관측 종료일"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-device-use-start-timing",
+					"reference": "SearchParameter/pghd-cdm-observation-device-use-start-timing",
 					"display": "PGHDCDMObservationDeviceUseStartTiming"
 				},
 				"name": "PGHDCDMObservationDeviceUseStartTiming",
@@ -599,7 +599,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-patient",
+					"reference": "SearchParameter/pghd-cdm-observation-patient",
 					"display": "PGHDCDMObservationPatient"
 				},
 				"name": "PGHDCDMObservationPatient",
@@ -608,7 +608,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-subject",
+					"reference": "SearchParameter/pghd-cdm-observation-subject",
 					"display": "PGHDCDMObservationSubject"
 				},
 				"name": "PGHDCDMObservationSubject",
@@ -617,7 +617,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-category",
+					"reference": "SearchParameter/pghd-cdm-observation-category",
 					"display": "PGHDCDMObservationCategory"
 				},
 				"name": "PGHDCDMObservationCategory",
@@ -626,7 +626,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-subject-gender",
+					"reference": "SearchParameter/pghd-cdm-observation-subject-gender",
 					"display": "PGHDCDMObservationSubjectGender"
 				},
 				"name": "PGHDCDMObservationSubjectGender",
@@ -635,7 +635,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-status",
+					"reference": "SearchParameter/pghd-cdm-observation-status",
 					"display": "PGHDCDMObservationStatus"
 				},
 				"name": "PGHDCDMObservationStatus",
@@ -644,7 +644,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-date",
+					"reference": "SearchParameter/pghd-cdm-observation-component-date",
 					"display": "PGHDCDMObservationComponentDate"
 				},
 				"name": "PGHDCDMObservationComponentDate",
@@ -653,7 +653,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-component-code",
+					"reference": "SearchParameter/pghd-cdm-observation-component-component-code",
 					"display": "PGHDCDMObservationComponentComponentCode"
 				},
 				"name": "PGHDCDMObservationComponentComponentCode",
@@ -662,7 +662,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-category",
+					"reference": "SearchParameter/pghd-cdm-observation-component-category",
 					"display": "PGHDCDMObservationComponentCategory"
 				},
 				"name": "PGHDCDMObservationComponentCategory",
@@ -671,7 +671,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-code",
+					"reference": "SearchParameter/pghd-cdm-observation-component-code",
 					"display": "PGHDCDMObservationComponentCode"
 				},
 				"name": "PGHDCDMObservationComponentCode",
@@ -680,7 +680,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-contained",
+					"reference": "SearchParameter/pghd-cdm-observation-component-contained",
 					"display": "PGHDCDMObservationComponentContained"
 				},
 				"name": "PGHDCDMObservationComponentContained",
@@ -689,7 +689,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-device-type",
+					"reference": "SearchParameter/pghd-cdm-observation-component-device-type",
 					"display": "PGHDCDMObservationComponentDeviceType"
 				},
 				"name": "PGHDCDMObservationComponentDeviceType",
@@ -698,7 +698,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-subject-gender",
+					"reference": "SearchParameter/pghd-cdm-observation-component-subject-gender",
 					"display": "PGHDCDMObservationComponentSubjectGender"
 				},
 				"name": "PGHDCDMObservationComponentSubjectGender",
@@ -707,7 +707,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-patient",
+					"reference": "SearchParameter/pghd-cdm-observation-component-patient",
 					"display": "PGHDCDMObservationComponentPatient"
 				},
 				"name": "PGHDCDMObservationComponentPatient",
@@ -716,7 +716,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-id",
+					"reference": "SearchParameter/pghd-cdm-observation-component-id",
 					"display": "PGHDCDMObservationComponentId"
 				},
 				"name": "PGHDCDMObservationComponentId",
@@ -725,7 +725,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-patient-gender",
+					"reference": "SearchParameter/pghd-cdm-observation-component-patient-gender",
 					"display": "PGHDCDMObservationComponentPatientGender"
 				},
 				"name": "PGHDCDMObservationComponentPatientGender",
@@ -734,16 +734,16 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-device-use-end-timing",
-					"display": "PGHDCDMObservationComponentDeviceEndStartTiming"
+					"reference": "SearchParameter/pghd-cdm-observation-component-device-use-end-timing",
+					"display": "PGHDCDMObservationComponentDeviceUseEndTiming"
 				},
-				"name": "PGHDCDMObservationComponentDeviceEndStartTiming",
+				"name": "PGHDCDMObservationComponentDeviceUseEndTiming",
 				"description": "관측 종료일"
 			},
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-subject",
+					"reference": "SearchParameter/pghd-cdm-observation-component-subject",
 					"display": "PGHDCDMObservationComponentSubject"
 				},
 				"name": "PGHDCDMObservationComponentSubject",
@@ -752,7 +752,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-status",
+					"reference": "SearchParameter/pghd-cdm-observation-component-status",
 					"display": "PGHDCDMObservationComponentStatus"
 				},
 				"name": "PGHDCDMObservationComponentStatus",
@@ -761,7 +761,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-profile",
+					"reference": "SearchParameter/pghd-cdm-observation-component-profile",
 					"display": "PGHDCDMObservationComponentProfile"
 				},
 				"name": "PGHDCDMObservationComponentProfile",
@@ -770,7 +770,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-observation-component-device-use-start-timing",
+					"reference": "SearchParameter/pghd-cdm-observation-component-device-use-start-timing",
 					"display": "PGHDCDMObservationComponentDeviceUseStartTiming"
 				},
 				"name": "PGHDCDMObservationComponentDeviceUseStartTiming",
@@ -779,7 +779,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-address-state",
+					"reference": "SearchParameter/pghd-cdm-organization-address-state",
 					"display": "PGHDCDMOrganizationAddressState"
 				},
 				"name": "PGHDCDMOrganizationAddressState",
@@ -788,7 +788,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-name",
+					"reference": "SearchParameter/pghd-cdm-organization-name",
 					"display": "PGHDCDMOrganizationName"
 				},
 				"name": "PGHDCDMOrganizationName",
@@ -797,7 +797,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-address-postalcode",
+					"reference": "SearchParameter/pghd-cdm-organization-address-postalcode",
 					"display": "PGHDCDMOrganizationAddressPostalCode"
 				},
 				"name": "PGHDCDMOrganizationAddressPostalCode",
@@ -806,7 +806,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-address-city",
+					"reference": "SearchParameter/pghd-cdm-organization-address-city",
 					"display": "PGHDCDMOrganizationAddressCity"
 				},
 				"name": "PGHDCDMOrganizationAddressCity",
@@ -815,7 +815,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-address",
+					"reference": "SearchParameter/pghd-cdm-organization-address",
 					"display": "PGHDCDMOrganizationAddress"
 				},
 				"name": "PGHDCDMOrganizationAddress",
@@ -824,7 +824,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-type",
+					"reference": "SearchParameter/pghd-cdm-organization-type",
 					"display": "PGHDCDMOrganizationType"
 				},
 				"name": "PGHDCDMOrganizationType",
@@ -833,7 +833,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-organization-id",
+					"reference": "SearchParameter/pghd-cdm-organization-id",
 					"display": "PGHDCDMOrganizationId"
 				},
 				"name": "PGHDCDMOrganizationId",
@@ -842,7 +842,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaire-code",
+					"reference": "SearchParameter/pghd-cdm-questionnaire-code",
 					"display": "PGHDCDMQuestionnaireCode"
 				},
 				"name": "PGHDCDMQuestionnaireCode",
@@ -851,7 +851,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaire-id",
+					"reference": "SearchParameter/pghd-cdm-questionnaire-id",
 					"display": "PGHDCDMQuestionnaireId"
 				},
 				"name": "PGHDCDMQuestionnaireId",
@@ -860,7 +860,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaire-status",
+					"reference": "SearchParameter/pghd-cdm-questionnaire-status",
 					"display": "PGHDCDMQuestionnaireStatus"
 				},
 				"name": "PGHDCDMQuestionnaireStatus",
@@ -869,7 +869,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaire-title",
+					"reference": "SearchParameter/pghd-cdm-questionnaire-title",
 					"display": "PGHDCDMQuestionnaireTitle"
 				},
 				"name": "PGHDCDMQuestionnaireTitle",
@@ -878,7 +878,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-subject",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-subject",
 					"display": "PGHDCDMQuestionnaireResponseSubject"
 				},
 				"name": "PGHDCDMQuestionnaireResponseSubject",
@@ -887,7 +887,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-encounter",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-encounter",
 					"display": "PGHDCDMQuestionnaireResponseEncounter"
 				},
 				"name": "PGHDCDMQuestionnaireResponseEncounter",
@@ -896,7 +896,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-authored",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-authored",
 					"display": "PGHDCDMQuestionnaireResponseAuthored"
 				},
 				"name": "PGHDCDMQuestionnaireResponseAuthored",
@@ -905,7 +905,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-questionnaire-id",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-questionnaire-id",
 					"display": "PGHDCDMQuestionnaireResponseQuestionnaireId"
 				},
 				"name": "PGHDCDMQuestionnaireResponseQuestionnaireId",
@@ -914,7 +914,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-id",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-id",
 					"display": "PGHDCDMQuestionnaireResponseId"
 				},
 				"name": "PGHDCDMQuestionnaireResponseId",
@@ -923,7 +923,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-questionnaire-status",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-questionnaire-status",
 					"display": "PGHDCDMQuestionnaireResponseQuestionnaireStatus"
 				},
 				"name": "PGHDCDMQuestionnaireResponseQuestionnaireStatus",
@@ -932,7 +932,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-patient",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-patient",
 					"display": "PGHDCDMQuestionnaireResponsePatient"
 				},
 				"name": "PGHDCDMQuestionnaireResponsePatient",
@@ -941,7 +941,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-questionnaire-title",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-questionnaire-title",
 					"display": "PGHDCDMQuestionnaireResponseQuestionnaireTitle"
 				},
 				"name": "PGHDCDMQuestionnaireResponseQuestionnaireTitle",
@@ -950,7 +950,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "SearchParameter/PGHD-CDM-questionnaireresponse-questionnaire-code",
+					"reference": "SearchParameter/pghd-cdm-questionnaireresponse-questionnaire-code",
 					"display": "PGHDCDMQuestionnaireResponseQuestionnaireCode"
 				},
 				"name": "PGHDCDMQuestionnaireResponseQuestionnaireCode",
@@ -959,7 +959,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-QuestionnaireItemSourceDataType",
+					"reference": "StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype",
 					"display": "PGHD CDM QuestionnaireItemSourceDataType Extension"
 				},
 				"name": "PGHD CDM QuestionnaireItemSourceDataType Extension"
@@ -967,7 +967,7 @@
 			{
 				"exampleBoolean": false,
 				"reference": {
-					"reference": "StructureDefinition/PGHD-CDM-QuestionnaireResponse",
+					"reference": "StructureDefinition/pghd-cdm-questionnaireresponse",
 					"display": "PGHD CDM QuestionnaireResponse Profile"
 				},
 				"name": "PGHD CDM QuestionnaireResponse Profile"
@@ -980,7 +980,7 @@
 				},
 				"name": "Seoul National University Bundang Hospital (SNUBH), South Korea",
 				"description": "Seoul National University Bundang Hospital (SNUBH), South Korea",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Organization"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-organization"
 			},
 			{
 				"exampleBoolean": false,
@@ -989,7 +989,7 @@
 				},
 				"name": "Patient Example",
 				"description": "Patient Example",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Patient"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-patient"
 			},
 			{
 				"exampleBoolean": false,
@@ -998,7 +998,7 @@
 				},
 				"name": "Device Example (1)",
 				"description": "Device Example (1)",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Device"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device"
 			},
 			{
 				"exampleBoolean": false,
@@ -1007,7 +1007,7 @@
 				},
 				"name": "Device Example (2)",
 				"description": "Device Example (2)",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Device"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device"
 			},
 			{
 				"exampleBoolean": false,
@@ -1016,7 +1016,7 @@
 				},
 				"name": "Encounter Example",
 				"description": "Encounter Example",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Encounter"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-encounter"
 			},
 			{
 				"exampleBoolean": false,
@@ -1025,16 +1025,7 @@
 				},
 				"name": "Observation Example(Length of body)",
 				"description": "Observation Example(Length of body)",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Observation"
-			},
-			{
-				"exampleBoolean": false,
-				"reference": {
-					"reference": "DeviceUseStatement/2342552567"
-				},
-				"name": "DeviceUseStatement Example",
-				"description": "DeviceUseStatement Example",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStatement"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-observation"
 			},
 			{
 				"exampleBoolean": false,
@@ -1043,7 +1034,7 @@
 				},
 				"name": "ObservationComponent Example(Blood pressure)",
 				"description": "ObservationComponent Example(Blood pressure)",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-ObservationComponent"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-observationcomponent"
 			},
 			{
 				"exampleBoolean": false,
@@ -1053,7 +1044,7 @@
 				},
 				"name": "Questionnaire Example",
 				"description": "Questionnaire Example",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Questionnaire"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaire"
 			},
 			{
 				"exampleBoolean": false,
@@ -1062,7 +1053,15 @@
 				},
 				"name": "QuestionnaireResponse Example",
 				"description": "QuestionnaireResponse Example",
-				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireResponse"
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireresponse"
+			},
+			{
+				"exampleBoolean": false,
+				"reference": {
+					"reference": "DeviceUseStatement/2342552568"
+				},
+				"name": "DeviceUseStatement Example",
+				"exampleCanonical": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestatement"
 			}
 		],
 		"page": {

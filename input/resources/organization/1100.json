@@ -4,7 +4,10 @@
 	"meta": {
 		"versionId": "3",
 		"lastUpdated": "2022-04-04T05:20:48.244+00:00",
-		"source": "#iH6OgCccqCuiYK7N"
+		"source": "#iH6OgCccqCuiYK7N",
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-organization"
+		]
 	},
 	"type": [
 		{
