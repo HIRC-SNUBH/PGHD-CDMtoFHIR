@@ -1,0 +1,164 @@
+{
+	"resourceType": "ValueSet",
+	"id": "pghd-cdm-questionnairecodes",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T02:16:17.715+00:00",
+		"source": "#sXbop10cTEKY5VMd"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-questionnairecodes",
+	"name": "PGHDCDMQuestionnaireCodes",
+	"title": "PGHD CDM QuestionnaireCodes",
+	"status": "draft",
+	"compose": {
+		"include": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"concept": [
+					{
+						"code": "224083004",
+						"display": "Marital or partnership status"
+					},
+					{
+						"code": "224293004",
+						"display": "Education received in the past"
+					},
+					{
+						"code": "281666001",
+						"display": "Family history of disorder"
+					},
+					{
+						"code": "417662000",
+						"display": "History of clinical finding in subject"
+					},
+					{
+						"code": "229819007",
+						"display": "Tobacco use and exposure"
+					},
+					{
+						"code": "364649005",
+						"display": "Regularity of eating"
+					},
+					{
+						"code": "58424009",
+						"display": "Overeating"
+					},
+					{
+						"code": "289137002",
+						"display": "Breakfast routine"
+					}
+				]
+			},
+			{
+				"system": "https://athena.ohdsi.org/",
+				"concept": [
+					{
+						"code": "SNUBH0047",
+						"display": "How fast do you eat meals?"
+					}
+				]
+			},
+			{
+				"system": "http://loinc.org/downloads/loinc",
+				"concept": [
+					{
+						"code": "65390-7",
+						"display": "Are you currently taking any other medication on a daily basis [PhenX]"
+					},
+					{
+						"code": "68518-0",
+						"display": "How often do you have a drink containing alcohol"
+					},
+					{
+						"code": "68519-8",
+						"display": "How many standard drinks containing alcohol do you have on a typical day [SAMHSA]"
+					},
+					{
+						"code": "68520-6",
+						"display": "How often do you have 6 or more drinks on 1 occasion [SAMHSA]"
+					},
+					{
+						"code": "63636-5",
+						"display": "How soon after you wake up do, or did, you smoke your first cigarette [FTND]"
+					},
+					{
+						"code": "63923-7",
+						"display": "In the past, have you ever made a serious attempt to quit smoking That is, have you stopped smoking for at least one day or longer because you were trying to quit [PLCO]"
+					},
+					{
+						"code": "63922-9",
+						"display": "Are you considering quitting smoking during the next 6 months [PLCO]"
+					},
+					{
+						"code": "63927-8",
+						"display": "During the past 12 months, did any doctor, dentist, nurse, or any other health professional advise you to quit smoking [PLCO]"
+					},
+					{
+						"code": "65614-0",
+						"display": "How often do you feel so sleepy during the day that it interrupts your normal activities [PhenX]"
+					},
+					{
+						"code": "64495-5",
+						"display": "How often does this nodding off or falling alseep while driving occur [PhenX]"
+					},
+					{
+						"code": "91429-1",
+						"display": "I felt as if I needed to move my legs a lot in past 7 days [PROMIS.PEDS]"
+					},
+					{
+						"code": "64489-8",
+						"display": "How often do you snore [PhenX]"
+					},
+					{
+						"code": "64491-4",
+						"display": "Has anyone noticed that you quit breathing during your sleep [PhenX]"
+					},
+					{
+						"code": "70233-2",
+						"display": "Trouble falling or staying asleep in the last month [PCL-C]"
+					},
+					{
+						"code": "44250-9",
+						"display": "Little interest or pleasure in doing things in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44255-8",
+						"display": "Feeling down, depressed, or hopeless in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44259-0",
+						"display": "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44254-1",
+						"display": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44251-7",
+						"display": "Poor appetite or overeating in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44258-2",
+						"display": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44252-5",
+						"display": "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44253-3",
+						"display": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "44260-8",
+						"display": "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
+					},
+					{
+						"code": "77298-8",
+						"display": "Yesterday, how many times did the patient eat food from any type of restaurant? #"
+					}
+				]
+			}
+		]
+	}
+}
