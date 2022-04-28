@@ -1,0 +1,45 @@
+{
+	"resourceType": "DeviceUseStatement",
+	"id": "2342552568",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestatement"
+		]
+	},
+	"contained": [
+		{
+			"resourceType": "Device",
+			"id": "2000000011",
+			"type": {
+				"coding": [
+					{
+						"system": "https://www.cdm.snubh.org/Atlas",
+						"code": "SNUBH0009",
+						"display": "Lifelog platform : Samsumg S-Health"
+					}
+				]
+			}
+		}
+	],
+	"extension": [
+		{
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-devicetype",
+			"valueCoding": {
+				"system": "https://athena.ohdsi.org/",
+				"code": "OMOP4822236",
+				"display": "Patient reported device"
+			}
+		}
+	],
+	"status": "active",
+	"subject": {
+		"reference": "Patient/3099361824"
+	},
+	"timingPeriod": {
+		"start": "2019-06-21T00:00:00+09:00",
+		"end": "2019-08-05T00:00:00+09:00"
+	},
+	"device": {
+		"reference": "#2000000011"
+	}
+}

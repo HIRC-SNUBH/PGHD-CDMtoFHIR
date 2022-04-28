@@ -1,0 +1,64 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "pghd-cdm-device",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device",
+	"version": "0.1",
+	"name": "PGHDCDMDeviceProfile",
+	"title": "PGHD CDM Device Profile",
+	"status": "active",
+	"experimental": false,
+	"date": "2022-03-29",
+	"publisher": "SNUBH-HIRC",
+	"fhirVersion": "4.0.1",
+	"kind": "resource",
+	"abstract": false,
+	"type": "Device",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Device",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Device",
+				"path": "Device"
+			},
+			{
+				"id": "Device.id",
+				"path": "Device.id",
+				"short": "Device ID",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Device.type",
+				"path": "Device.type",
+				"short": "Device 유형",
+				"min": 1,
+				"mustSupport": true,
+				"binding": {
+					"strength": "extensible",
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-device-type"
+				}
+			},
+			{
+				"id": "Device.type.coding",
+				"path": "Device.type.coding",
+				"short": "Device 유형 코드",
+				"mustSupport": false
+			},
+			{
+				"id": "Device.type.coding.system",
+				"path": "Device.type.coding.system",
+				"short": "코드체계 식별자",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Device.type.coding.code",
+				"path": "Device.type.coding.code",
+				"short": "코드 값",
+				"min": 1,
+				"mustSupport": true
+			}
+		]
+	}
+}

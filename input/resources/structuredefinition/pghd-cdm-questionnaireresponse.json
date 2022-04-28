@@ -1,0 +1,229 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "pghd-cdm-questionnaireresponse",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireresponse",
+	"version": "1.0.0",
+	"name": "PGHDCDMQuestionnaireResponseProfile",
+	"title": "PGHD CDM QuestionnaireResponse Profile",
+	"status": "active",
+	"experimental": false,
+	"date": "2022-03-29",
+	"publisher": "SNUBH-HIRC",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"fhirVersion": "4.0.1",
+	"kind": "resource",
+	"abstract": false,
+	"type": "QuestionnaireResponse",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "QuestionnaireResponse",
+				"path": "QuestionnaireResponse"
+			},
+			{
+				"id": "QuestionnaireResponse.id",
+				"path": "QuestionnaireResponse.id",
+				"short": "설문지 응답결과 ID",
+				"min": 1,
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.extension:respondent-type",
+				"path": "QuestionnaireResponse.extension",
+				"sliceName": "respondent-type",
+				"short": "응답 유형에 대한 concept_id",
+				"min": 1,
+				"max": "1",
+				"type": [
+					{
+						"code": "Extension",
+						"profile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-respondenttype"
+						]
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.extension:collection-method",
+				"path": "QuestionnaireResponse.extension",
+				"sliceName": "collection-method",
+				"short": "설문지 데이터 수집 방법에 대한 concept_id",
+				"min": 1,
+				"max": "1",
+				"type": [
+					{
+						"code": "Extension",
+						"profile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod"
+						]
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.extension:timing-source",
+				"path": "QuestionnaireResponse.extension",
+				"sliceName": "timing-source",
+				"short": "설문조사 시점에 대한 로컬코드 (예, baseline, 6M f/u)",
+				"min": 0,
+				"max": "1",
+				"type": [
+					{
+						"code": "Extension",
+						"profile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-timingsource"
+						]
+					}
+				]
+			},
+			{
+				"id": "QuestionnaireResponse.extension:collection-method-source",
+				"path": "QuestionnaireResponse.extension",
+				"sliceName": "collection-method-source",
+				"short": "설문지 데이터 수집 방법에 대한 로컬코드",
+				"min": 0,
+				"max": "1",
+				"type": [
+					{
+						"code": "Extension",
+						"profile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethodsource"
+						]
+					}
+				]
+			},
+			{
+				"id": "QuestionnaireResponse.questionnaire",
+				"path": "QuestionnaireResponse.questionnaire",
+				"short": "설문지",
+				"min": 1,
+				"type": [
+					{
+						"code": "canonical",
+						"targetProfile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaire"
+						]
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.subject",
+				"path": "QuestionnaireResponse.subject",
+				"short": "설문 응답자",
+				"min": 1,
+				"type": [
+					{
+						"code": "Reference",
+						"targetProfile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-patient"
+						]
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.encounter",
+				"path": "QuestionnaireResponse.encounter",
+				"short": "설문응답 생성 수진",
+				"type": [
+					{
+						"code": "Reference",
+						"targetProfile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-encounter"
+						]
+					}
+				],
+				"mustSupport": false
+			},
+			{
+				"id": "QuestionnaireResponse.authored",
+				"path": "QuestionnaireResponse.authored",
+				"short": "응답 생성 일자",
+				"min": 1,
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.item",
+				"path": "QuestionnaireResponse.item",
+				"short": "설문 항목 그룹",
+				"min": 1,
+				"max": "*",
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.item.extension",
+				"path": "QuestionnaireResponse.item.extension",
+				"slicing": {
+					"discriminator": [
+						{
+							"type": "value",
+							"path": "url"
+						}
+					],
+					"rules": "open"
+				},
+				"short": "observation 데이터 source에 대한 concept_id",
+				"min": 1,
+				"max": "1",
+				"type": [
+					{
+						"code": "Extension",
+						"profile": [
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype"
+						]
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.item.linkId",
+				"path": "QuestionnaireResponse.item.linkId",
+				"short": "설문 항목 ID",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "QuestionnaireResponse.item.answer",
+				"path": "QuestionnaireResponse.item.answer",
+				"short": "설문 항목에 대한 응답"
+			},
+			{
+				"id": "QuestionnaireResponse.item.answer.value[x]",
+				"path": "QuestionnaireResponse.item.answer.value[x]",
+				"short": "응답 값",
+				"type": [
+					{
+						"code": "Quantity"
+					},
+					{
+						"code": "Coding"
+					},
+					{
+						"code": "string"
+					}
+				],
+				"binding": {
+					"strength": "extensible",
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-questionnaireresponsecodes"
+				}
+			}
+		]
+	}
+}

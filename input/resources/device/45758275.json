@@ -1,0 +1,18 @@
+{
+	"resourceType": "Device",
+	"id": "45758275",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device"
+		]
+	},
+	"type": {
+		"coding": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"code": "462894001",
+				"display": "Patient health record information system application software"
+			}
+		]
+	}
+}

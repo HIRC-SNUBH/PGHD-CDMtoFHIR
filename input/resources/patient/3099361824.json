@@ -1,0 +1,58 @@
+{
+	"resourceType": "Patient",
+	"id": "3099361824",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-patient"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>3099361824</td></tr><tr><td>Address</td><td><span>Gwangju-si </span><span>Gyeonggi-do </span><span>South Korea </span></td></tr><tr><td>Date of birth</td><td><span>01 November 1961</span></td></tr></tbody></table></div>"
+	},
+	"extension": [
+		{
+			"url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+			"extension": [
+				{
+					"url": "ombCategory",
+					"valueCoding": {
+						"system": "urn:oid:2.16.840.1.113883.6.238",
+						"code": "2028-9",
+						"display": "Asian"
+					}
+				},
+				{
+					"url": "detailed",
+					"valueCoding": {
+						"system": "urn:oid:2.16.840.1.113883.6.238",
+						"code": "2040-4",
+						"display": "Korean"
+					}
+				},
+				{
+					"url": "text",
+					"valueString": "Korean"
+				}
+			]
+		}
+	],
+	"identifier": [
+		{
+			"value": "3099361824"
+		}
+	],
+	"active": true,
+	"gender": "male",
+	"birthDate": "1961-11-01",
+	"address": [
+		{
+			"city": "Gwangju-si",
+			"state": "Gyeonggi-do",
+			"country": "South Korea"
+		}
+	],
+	"managingOrganization": {
+		"reference": "Organization/1100"
+	}
+}

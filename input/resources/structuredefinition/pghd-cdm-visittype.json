@@ -1,0 +1,61 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "pghd-cdm-visittype",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-visittype",
+	"version": "0.1",
+	"name": "PGHDCDMVisitTypeExtension",
+	"title": "PGHD CDM VisitType Extension",
+	"status": "active",
+	"experimental": false,
+	"date": "2022-03-29",
+	"publisher": "SNUBH-HIRC",
+	"fhirVersion": "4.0.1",
+	"kind": "complex-type",
+	"abstract": false,
+	"context": [
+		{
+			"type": "element",
+			"expression": "Encounter"
+		}
+	],
+	"type": "Extension",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Extension",
+				"path": "Extension",
+				"min": 1,
+				"max": "1",
+				"mustSupport": false
+			},
+			{
+				"id": "Extension.url",
+				"path": "Extension.url",
+				"type": [
+					{
+						"code": "uri"
+					}
+				],
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-visittype"
+			},
+			{
+				"id": "Extension.value[x]",
+				"path": "Extension.value[x]",
+				"short": "수진 목적",
+				"min": 1,
+				"type": [
+					{
+						"code": "Coding"
+					}
+				],
+				"binding": {
+					"strength": "extensible",
+					"description": "일반적인 수진 | 임상시험",
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-purposeofencounter"
+				}
+			}
+		]
+	}
+}

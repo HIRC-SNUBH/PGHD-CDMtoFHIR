@@ -1,0 +1,135 @@
+{
+	"resourceType": "ValueSet",
+	"id": "pghd-cdm-obscompcomponentcodes",
+	"meta": {
+		"versionId": "2",
+		"lastUpdated": "2022-04-20T01:34:59.417+00:00",
+		"source": "#VyXDwbqAlnX9HnDZ"
+	},
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-obscompcomponentcodes",
+	"name": "PGHDCDMObsCompComponentCodes",
+	"title": "PGHD CDM ObsCompComponentCodes",
+	"status": "draft",
+	"compose": {
+		"include": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"concept": [
+					{
+						"code": "723228002",
+						"display": "Systolic phase"
+					},
+					{
+						"code": "723229005",
+						"display": "Disastolic phase"
+					},
+					{
+						"code": "1501000175105",
+						"display": "Before breakfast"
+					},
+					{
+						"code": "7221000175107",
+						"display": "After breakfast"
+					},
+					{
+						"code": "3091000175105",
+						"display": "Before lunch"
+					},
+					{
+						"code": "1541000175107",
+						"display": "After lunch"
+					},
+					{
+						"code": "3071000175109",
+						"display": "Before dinner"
+					},
+					{
+						"code": "1521000175104",
+						"display": "After dinner"
+					},
+					{
+						"code": "307155000",
+						"display": "Before sleeping"
+					},
+					{
+						"code": "74964007",
+						"display": "Other"
+					},
+					{
+						"code": "307165006",
+						"display": "Before meal"
+					},
+					{
+						"code": "24863003",
+						"display": "Postprandial"
+					},
+					{
+						"code": "726054005",
+						"display": "After fasting"
+					},
+					{
+						"code": "1551000175109",
+						"display": "With snack"
+					},
+					{
+						"code": "129006008",
+						"display": "Walking"
+					},
+					{
+						"code": "111055000",
+						"display": "Mountain climbing"
+					},
+					{
+						"code": "300648001",
+						"display": "Does ride a bicycle"
+					},
+					{
+						"code": "129420008",
+						"display": "Stretching - action"
+					},
+					{
+						"code": "14468000",
+						"display": "Sports activity"
+					},
+					{
+						"code": "88289009",
+						"display": "Soccer"
+					},
+					{
+						"code": "26550000",
+						"display": "Tennis"
+					},
+					{
+						"code": "225925001",
+						"display": "Regular exercise"
+					},
+					{
+						"code": "15530008",
+						"display": "Golfing"
+					},
+					{
+						"code": "20461001",
+						"display": "Swimming"
+					}
+				]
+			},
+			{
+				"system": "http://loinc.org/downloads/loinc",
+				"concept": [
+					{
+						"code": "LA20164-2",
+						"display": "Light exercise intensity"
+					},
+					{
+						"code": "LA20165-9",
+						"display": "Moderate exercise intensity"
+					},
+					{
+						"code": "LA20166-7",
+						"display": "Vigorous exercise intensity"
+					}
+				]
+			}
+		]
+	}
+}

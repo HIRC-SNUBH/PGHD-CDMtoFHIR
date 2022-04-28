@@ -1,0 +1,18 @@
+{
+	"resourceType": "Device",
+	"id": "2000000011",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device"
+		]
+	},
+	"type": {
+		"coding": [
+			{
+				"system": "https://www.cdm.snubh.org/Atlas",
+				"code": "SNUBH0009",
+				"display": "Lifelog platform : Samsumg S-Health"
+			}
+		]
+	}
+}

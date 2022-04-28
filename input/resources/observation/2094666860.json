@@ -1,0 +1,53 @@
+{
+	"resourceType": "Observation",
+	"id": "2094666860",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-observation"
+		]
+	},
+	"extension": [
+		{
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming",
+			"valueDate": "2016-05-02"
+		},
+		{
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming",
+			"valueDate": "2016-09-01"
+		}
+	],
+	"status": "final",
+	"category": [
+		{
+			"coding": [
+				{
+					"system": "https://athena.ohdsi.org/",
+					"code": "OMOP4822320",
+					"display": "Patient reported"
+				}
+			]
+		}
+	],
+	"code": {
+		"coding": [
+			{
+				"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+				"code": "248334005",
+				"display": "Length of body"
+			}
+		],
+		"text": "HEIGHT"
+	},
+	"subject": {
+		"reference": "Patient/3099361824"
+	},
+	"effectiveDateTime": "2016-09-09T00:00:00+09:00",
+	"valueQuantity": {
+		"value": 170,
+		"unit": "cm",
+		"system": "http://aurora.regenstrief.org/~ucum/ucum.html#section-Alphabetic-Index"
+	},
+	"device": {
+		"reference": "Device/45758275"
+	}
+}

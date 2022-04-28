@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-encounter-class",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-encounter-class",
+	"version": "0.1",
+	"name": "PGHDCDMEncounterClass",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "수진 분류",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "class",
+	"base": [
+		"Encounter"
+	],
+	"type": "token",
+	"expression": "Encounter.class",
+	"xpath": "f:Encounter/f:class",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

@@ -1,0 +1,55 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "pghd-cdm-deviceusestarttiming",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming",
+	"version": "0.1",
+	"name": "PGHDCDMDeviceUseStartTimingExtension",
+	"title": "PGHD CDM DeviceUseStartTiming Extension",
+	"status": "active",
+	"experimental": false,
+	"date": "2022-03-29",
+	"publisher": "SNUBH-HIRC",
+	"fhirVersion": "4.0.1",
+	"kind": "complex-type",
+	"abstract": false,
+	"context": [
+		{
+			"type": "element",
+			"expression": "Observation"
+		}
+	],
+	"type": "Extension",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Extension",
+				"path": "Extension",
+				"short": "관측 시작일",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"id": "Extension.url",
+				"path": "Extension.url",
+				"type": [
+					{
+						"code": "uri"
+					}
+				],
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming"
+			},
+			{
+				"id": "Extension.value[x]",
+				"path": "Extension.value[x]",
+				"short": "관측 시작일",
+				"type": [
+					{
+						"code": "date"
+					}
+				]
+			}
+		]
+	}
+}

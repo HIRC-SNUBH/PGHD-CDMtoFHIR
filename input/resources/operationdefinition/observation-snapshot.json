@@ -1,0 +1,130 @@
+{
+	"resourceType": "OperationDefinition",
+	"id": "observation-snapshot",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/OperationDefinition/observation-snapshot",
+	"version": "0.1",
+	"name": "observation-snapshot",
+	"status": "draft",
+	"kind": "operation",
+	"experimental": true,
+	"publisher": "SNUBH-HIRC",
+	"description": "특정 시점이나 특정 조건에 대한 조회 결과를 사용 전에 구조화화여 필요할 때 DB 쿼리나 객체 직렬화 과정 없이 기존에 구조화된 데이터를 조회하여 사용하도록 정의한 operation.\n\n```\nPOST [Base URL]/Observation/$snapshot\n```",
+	"code": "observation-snapshot",
+	"system": false,
+	"type": true,
+	"instance": false,
+	"parameter": [
+		{
+			"name": "_id",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "id"
+		},
+		{
+			"name": "code",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "code"
+		},
+		{
+			"name": "component-code",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "CodeableConcept"
+		},
+		{
+			"name": "status",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "code"
+		},
+		{
+			"name": "category",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "CodeableConcept"
+		},
+		{
+			"name": "patient",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "Reference"
+		},
+		{
+			"name": "subject",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "Reference"
+		},
+		{
+			"name": "date",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "date"
+		},
+		{
+			"name": "device.type",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "CodeableConcept"
+		},
+		{
+			"name": "patient.gender",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "code"
+		},
+		{
+			"name": "subject.gender",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "code"
+		},
+		{
+			"name": "deviceUseStartTiming",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "date"
+		},
+		{
+			"name": "deviceUseEndTiming",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "date"
+		},
+		{
+			"name": "_profile",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "canonical"
+		},
+		{
+			"name": "_contained",
+			"use": "in",
+			"min": 1,
+			"max": "1",
+			"type": "string"
+		},
+		{
+			"name": "return",
+			"use": "out",
+			"min": 1,
+			"max": "1",
+			"type": "OperationOutcome"
+		}
+	]
+}

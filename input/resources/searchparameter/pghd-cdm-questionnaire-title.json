@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-questionnaire-title",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaire-title",
+	"version": "0.1",
+	"name": "PGHDCDMQuestionnaireTitle",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "설문 이름",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "status",
+	"base": [
+		"Questionnaire"
+	],
+	"type": "string",
+	"expression": "Questionnaire.title",
+	"xpath": "f:Questionnaire/f:title",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

@@ -1,0 +1,41 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-observation-component-device-use-start-timing",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-component-device-use-start-timing",
+	"version": "0.1",
+	"name": "PGHDCDMObservationComponentDeviceUseStartTiming",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "관측 시작일",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "deviceUseStartTiming",
+	"base": [
+		"Observation"
+	],
+	"type": "date",
+	"expression": "Observation.extension.where(url = 'https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming').value",
+	"xpath": "f:Observation/f:extension[@url='https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming']/f:valueDate",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"comparator": [
+		"eq",
+		"gt",
+		"lt",
+		"ge",
+		"le"
+	]
+}

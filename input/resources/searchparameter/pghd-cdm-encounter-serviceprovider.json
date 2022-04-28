@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-encounter-serviceprovider",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-encounter-serviceprovider",
+	"version": "0.1",
+	"name": "PGHDCDMEncounterServiceProvider",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "기관/진료과 ID",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "service-provider",
+	"base": [
+		"Encounter"
+	],
+	"type": "reference",
+	"expression": "Encounter.serviceProvider",
+	"xpath": "f:Encounter/f:serviceProvider",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

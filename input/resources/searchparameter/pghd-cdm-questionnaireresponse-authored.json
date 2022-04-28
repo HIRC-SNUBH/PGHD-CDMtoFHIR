@@ -1,0 +1,41 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-questionnaireresponse-authored",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaireresponse-authored",
+	"version": "0.1",
+	"name": "PGHDCDMQuestionnaireResponseAuthored",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "설문응답 생성 일자",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "authored",
+	"base": [
+		"QuestionnaireResponse"
+	],
+	"type": "date",
+	"expression": "QuestionnaireResponse.authored",
+	"xpath": "f:QuestionnaireResponse/f:authored",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"comparator": [
+		"eq",
+		"gt",
+		"lt",
+		"ge",
+		"le"
+	]
+}

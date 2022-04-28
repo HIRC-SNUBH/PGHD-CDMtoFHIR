@@ -1,0 +1,38 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-organization-name",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-organization-name",
+	"version": "0.1",
+	"name": "PGHDCDMOrganizationName",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "기관 이름",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "name",
+	"base": [
+		"Organization"
+	],
+	"type": "string",
+	"expression": "Organization.name|Organization.alias",
+	"xpath": "f:Organization/f:name|f:Organization/f:alias",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"modifier": [
+		"exact",
+		"contains"
+	]
+}

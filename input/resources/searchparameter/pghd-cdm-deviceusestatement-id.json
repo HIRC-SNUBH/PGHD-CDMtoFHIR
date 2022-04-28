@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-deviceusestatement-id",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-deviceusestatement-id",
+	"version": "0.1",
+	"name": "PGHDCDMDeviceUseStatementId",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "Device ID",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "_id",
+	"base": [
+		"DeviceUseStatement"
+	],
+	"type": "token",
+	"expression": "DeviceUseStatement.id",
+	"xpath": "f:DeviceUseStatement/f:id",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

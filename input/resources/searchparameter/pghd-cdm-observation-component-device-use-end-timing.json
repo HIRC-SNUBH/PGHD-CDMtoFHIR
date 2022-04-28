@@ -1,0 +1,41 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-observation-component-device-use-end-timing",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-component-device-use-end-timing",
+	"version": "0.1",
+	"name": "PGHDCDMObservationComponentDeviceUseEndTiming",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "관측 종료일",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "deviceUseEndTiming",
+	"base": [
+		"Observation"
+	],
+	"type": "date",
+	"expression": "Observation.extension.where(url = 'https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming').value",
+	"xpath": "f:Observation/f:extension[@url='https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming']/f:valueDate",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"comparator": [
+		"eq",
+		"gt",
+		"lt",
+		"ge",
+		"le"
+	]
+}

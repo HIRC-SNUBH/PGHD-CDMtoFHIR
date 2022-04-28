@@ -1,6 +1,19 @@
 ### Overview
 
-This implementation guide does not have a description, yet.
+CDM PGHD to FHIR 는 CDM PGHD 데이터를 FHIR Resource 로 변환하는 데 필요한 extension, value set, search parameter, operation 등이 포함된 FHIR Profile 의 집합을 정의합니다.
+이 구현 지침에 포함된 Profile은 HL7 FHIR의 Resource의 기본 Structure Definition에서 파생되어 정의 되었으며, 일부 항목은 US-Core 에 정의된 Profile 사양을 참조하여 작성 되었습니다.
+
+#### 문서 안내
+
+이 문서의 구성은 다음과 같습니다.
+
+- [Home](index.html) : CDM PGHD to FHIR 홈페이지
+- [Profiles and Extensions](profiles_and_extensions.html) : CDM PGHD to FHIR Profile 페이지
+- [Search Parameters and Operations](search_parameters_and_operations.html) : Search Parameters and Operations 페이지
+- [Terminology](terminology.html) : Terminology 페이지
+- [Downloads](downloads.html) : 다운로드 페이지
+
+
 
 ### Authors
 
@@ -13,8 +26,8 @@ This implementation guide does not have a description, yet.
 </thead>
 <tbody>
 <tr>
-<td>HL7 International Working Group</td>
-<td><a href="http://www.hl7.org/Special/committees/" target="_new">http://www.hl7.org/Special/committees/</a></td>
+<td>Seoul National University Bundang Hospital</td>
+<td><a href="https://www.snubh.org/" target="_new">https://www.snubh.org/</a></td>
 </tr>
 </tbody>
 </table>

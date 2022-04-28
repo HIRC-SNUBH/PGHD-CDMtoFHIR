@@ -1,0 +1,56 @@
+{
+	"resourceType": "Questionnaire",
+	"id": "2471539106",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaire"
+		]
+	},
+	"title": "건강증진센터 건강기록지 신문진",
+	"status": "active",
+	"code": [
+		{
+			"system": "https://www.cdm.snubh.org/Atlas",
+			"code": "SNUBH0050",
+			"display": "Health Questionnaire"
+		}
+	],
+	"item": [
+		{
+			"linkId": "4076095",
+			"code": [
+				{
+					"system": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+					"code": "224083004",
+					"display": "Marital or partnership status"
+				}
+			],
+			"text": "귀하의 결혼 상태를 표시해 주십시오",
+			"type": "open-choice"
+		},
+		{
+			"linkId": "40768086",
+			"code": [
+				{
+					"system": "http://loinc.org/downloads/loinc",
+					"code": "65390-7",
+					"display": "Are you currently taking any other medication on a daily basis [PhenX]"
+				}
+			],
+			"text": "현재 복용하고 있는 약이 있습니까? 있다면 해당 항목에 체크해 주십시오",
+			"type": "open-choice"
+		},
+		{
+			"linkId": "40771103",
+			"code": [
+				{
+					"system": "http://loinc.org/downloads/loinc",
+					"code": "68518-0",
+					"display": "How often do you have a drink containing alcohol [SAMHSA]"
+				}
+			],
+			"text": "귀하는 술을 얼마나 자주 마십니까?",
+			"type": "open-choice"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-questionnaireresponse-patient",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaireresponse-patient",
+	"version": "0.1",
+	"name": "PGHDCDMQuestionnaireResponsePatient",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "설문 상태",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "patient",
+	"base": [
+		"QuestionnaireResponse"
+	],
+	"type": "reference",
+	"expression": "QuestionnaireResponse.subject.where(resolove() is Patient)",
+	"xpath": "f:QuestionnaireResponse/f:subject",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

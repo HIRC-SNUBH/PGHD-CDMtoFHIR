@@ -1,0 +1,88 @@
+{
+	"resourceType": "OperationDefinition",
+	"id": "questionnaireresponse-snapshot",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/OperationDefinition/questionnaireresponse-snapshot",
+	"version": "0.1",
+	"name": "questionnaireresponse-snapshot",
+	"status": "draft",
+	"kind": "operation",
+	"experimental": true,
+	"publisher": "SNUBH-HIRC",
+	"description": "특정 시점이나 특정 조건에 대한 조회 결과를 사용 전에 구조화화여 필요할 때 DB 쿼리나 객체 직렬화 과정 없이 기존에 구조화된 데이터를 조회하여 사용하도록 정의한 operation.\n\n```\nPOST [Base URL]/QuestionnaireResponse/$snapshot\n```",
+	"code": "questionnaireresponse-snapshot",
+	"system": false,
+	"type": false,
+	"instance": false,
+	"parameter": [
+		{
+			"name": "_id",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "id"
+		},
+		{
+			"name": "patient",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "Reference"
+		},
+		{
+			"name": "subject",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "Reference"
+		},
+		{
+			"name": "authored",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "date"
+		},
+		{
+			"name": "encounter",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "Reference"
+		},
+		{
+			"name": "questionnaire._id",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "id"
+		},
+		{
+			"name": "questionnaire.status",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "code"
+		},
+		{
+			"name": "questionnaire.title",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "string"
+		},
+		{
+			"name": "questionnaire.code",
+			"use": "in",
+			"min": 0,
+			"max": "1",
+			"type": "Coding"
+		},
+		{
+			"name": "return",
+			"use": "out",
+			"min": 1,
+			"max": "1",
+			"type": "OperationOutcome"
+		}
+	]
+}

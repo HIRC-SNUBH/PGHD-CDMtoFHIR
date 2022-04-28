@@ -1,0 +1,25 @@
+{
+	"resourceType": "OperationDefinition",
+	"id": "readsnapshot",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/OperationDefinition/readsnapshot",
+	"version": "0.1",
+	"name": "readsnapshot",
+	"status": "draft",
+	"kind": "operation",
+	"experimental": true,
+	"publisher": "SNUBH-HIRC",
+	"description": "$snapshot을 통해 사전에 구조화된 데이터를 가져올 때 사용하는 operation. HTTP GET method 사용\n\n```\nGET [Base URL]/Bundle/[id]/$readsnapshot\n```",
+	"code": "readsnapshot",
+	"system": false,
+	"type": true,
+	"instance": true,
+	"parameter": [
+		{
+			"name": "return",
+			"use": "out",
+			"min": 1,
+			"max": "1",
+			"type": "OperationOutcome"
+		}
+	]
+}

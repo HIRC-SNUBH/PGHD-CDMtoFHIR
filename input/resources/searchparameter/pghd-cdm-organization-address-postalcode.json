@@ -1,0 +1,38 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-organization-address-postalcode",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-organization-address-postalcode",
+	"version": "0.1",
+	"name": "PGHDCDMOrganizationAddressPostalCode",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "주소-우편번호",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "address-postalcode",
+	"base": [
+		"Organization"
+	],
+	"type": "string",
+	"expression": "Organization.address.postalCode",
+	"xpath": "f:Organization/f:address/f:postalCode",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"modifier": [
+		"exact",
+		"contains"
+	]
+}

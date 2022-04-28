@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-observation-component-category",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-component-category",
+	"version": "0.1",
+	"name": "PGHDCDMObservationComponentCategory",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "관측 유형",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "category",
+	"base": [
+		"Observation"
+	],
+	"type": "token",
+	"expression": "Observation.category",
+	"xpath": "f:Observation/f:category",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

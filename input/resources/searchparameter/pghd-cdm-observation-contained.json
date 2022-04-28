@@ -1,0 +1,34 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-observation-contained",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-contained",
+	"version": "0.1",
+	"name": "PGHDCDMObservationContained",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "관측 대상 및 기기 Resource 표시",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "_contained",
+	"base": [
+		"Observation"
+	],
+	"type": "string",
+	"expression": "Observation.contained",
+	"xpath": "f:Observation/f:contained",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true
+}

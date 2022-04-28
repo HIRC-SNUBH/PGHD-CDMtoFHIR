@@ -1,0 +1,85 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "pghd-cdm-questionnaireitemsourcedatatype",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype",
+	"version": "1.0.0",
+	"name": "PGHDCDMQuestionnaireItemSourceDataTypeExtension",
+	"title": "PGHD CDM QuestionnaireItemSourceDataType Extension",
+	"status": "active",
+	"experimental": false,
+	"date": "2022-03-29",
+	"publisher": "SNUBH-HIRC",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"fhirVersion": "4.0.1",
+	"kind": "complex-type",
+	"abstract": false,
+	"context": [
+		{
+			"type": "element",
+			"expression": "QuestionnaireResponse.item"
+		}
+	],
+	"type": "Extension",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Extension",
+				"path": "Extension",
+				"min": 1,
+				"max": "1"
+			},
+			{
+				"id": "Extension.url",
+				"path": "Extension.url",
+				"max": "1",
+				"type": [
+					{
+						"code": "uri"
+					}
+				],
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype"
+			},
+			{
+				"id": "Extension.value[x]",
+				"path": "Extension.value[x]",
+				"min": 1,
+				"type": [
+					{
+						"code": "Coding"
+					}
+				]
+			},
+			{
+				"id": "Extension.value[x].system",
+				"path": "Extension.value[x].system",
+				"min": 1,
+				"fixedUri": "https://athena.ohdsi.org/"
+			},
+			{
+				"id": "Extension.value[x].code",
+				"path": "Extension.value[x].code",
+				"min": 1,
+				"fixedCode": "OMOP4822321"
+			},
+			{
+				"id": "Extension.value[x].display",
+				"path": "Extension.value[x].display",
+				"min": 1,
+				"fixedString": "Observation Recorded from a Survey"
+			}
+		]
+	}
+}

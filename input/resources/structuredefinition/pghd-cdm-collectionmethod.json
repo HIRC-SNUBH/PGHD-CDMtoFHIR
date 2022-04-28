@@ -1,0 +1,73 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "pghd-cdm-collectionmethod",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod",
+	"version": "0.1",
+	"name": "PGHDCDMCollectionMethodExtension",
+	"title": "PGHD CDM CollectionMethod Extension",
+	"status": "active",
+	"experimental": false,
+	"date": "2022-03-29",
+	"publisher": "SNUBH-HIRC",
+	"fhirVersion": "4.0.1",
+	"kind": "complex-type",
+	"abstract": false,
+	"context": [
+		{
+			"type": "element",
+			"expression": "QuestionnaireResponse"
+		}
+	],
+	"type": "Extension",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Extension",
+				"path": "Extension",
+				"short": "Collection Method",
+				"min": 1,
+				"max": "1"
+			},
+			{
+				"id": "Extension.url",
+				"path": "Extension.url",
+				"type": [
+					{
+						"code": "uri"
+					}
+				],
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod"
+			},
+			{
+				"id": "Extension.value[x]",
+				"path": "Extension.value[x]",
+				"min": 1,
+				"type": [
+					{
+						"code": "Coding"
+					}
+				]
+			},
+			{
+				"id": "Extension.value[x].system",
+				"path": "Extension.value[x].system",
+				"min": 1,
+				"fixedUri": "http://loinc.org/downloads/loinc"
+			},
+			{
+				"id": "Extension.value[x].code",
+				"path": "Extension.value[x].code",
+				"min": 1,
+				"fixedCode": "LA26662-9"
+			},
+			{
+				"id": "Extension.value[x].display",
+				"path": "Extension.value[x].display",
+				"min": 1,
+				"fixedString": "Paper"
+			}
+		]
+	}
+}

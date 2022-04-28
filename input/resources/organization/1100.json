@@ -1,0 +1,31 @@
+{
+	"resourceType": "Organization",
+	"id": "1100",
+	"meta": {		
+		"profile": [
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-organization"
+		]
+	},
+	"type": [
+		{
+			"coding": [
+				{
+					"system": "http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/PhysicianFeeSched/downloads//Website_POS_database.pdf",
+					"code": "21",
+					"display": "Inpatient Hospital"
+				}
+			]
+		}
+	],
+	"name": "Seoul National University Bundang Hospital (SNUBH), South Korea ",
+	"address": [
+		{
+			"line": [
+				"Bundang-gu"
+			],
+			"city": "Seongnam-si",
+			"state": "Gyeonggi-do",
+			"country": "South Korea"
+		}
+	]
+}

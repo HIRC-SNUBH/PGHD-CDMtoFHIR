@@ -1,0 +1,11 @@
+{
+	"resourceType": "CodeSystem",
+	"id": "loinc",	
+	"url": "http://loinc.org/downloads/loinc",
+	"name": "LOINC",
+	"title": "Logical Observation Identifiers Names and Codes",
+	"status": "draft",
+	"experimental": false,
+	"publisher": "LOINC and Health Data Standards, Regenstrief Institute, Inc.",
+	"content": "not-present"
+}

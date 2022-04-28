@@ -1,0 +1,38 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-organization-address",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-organization-address",
+	"version": "0.1",
+	"name": "PGHDCDMOrganizationAddress",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "주소",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "address",
+	"base": [
+		"Organization"
+	],
+	"type": "string",
+	"expression": "Organization.address",
+	"xpath": "f:Organization/f:address",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"modifier": [
+		"exact",
+		"contains"
+	]
+}

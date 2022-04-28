@@ -1,0 +1,41 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-observation-date",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-date",
+	"version": "0.1",
+	"name": "PGHDCDMObservationDate",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "관측 일시",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "date",
+	"base": [
+		"Observation"
+	],
+	"type": "date",
+	"expression": "Observation.effective",
+	"xpath": "f:Observation/f:effective",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"comparator": [
+		"eq",
+		"gt",
+		"lt",
+		"ge",
+		"le"
+	]
+}

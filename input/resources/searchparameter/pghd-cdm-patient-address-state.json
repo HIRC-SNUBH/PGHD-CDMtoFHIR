@@ -1,0 +1,38 @@
+{
+	"resourceType": "SearchParameter",
+	"id": "pghd-cdm-patient-address-state",	
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-patient-address-state",
+	"version": "0.1",
+	"name": "PGHDCDMPatientAddressState",
+	"status": "draft",
+	"experimental": true,
+	"date": "2022-02-07",
+	"publisher": "SNUBH-HIRC",
+	"description": "주소-도",
+	"jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "urn:iso:std:iso:3166",
+					"code": "KR",
+					"display": "Korea, Republic of"
+				}
+			],
+			"text": "Korea, Republic of"
+		}
+	],
+	"code": "address-state",
+	"base": [
+		"Patient"
+	],
+	"type": "string",
+	"expression": "Patient.address.state",
+	"xpath": "f:Patient/f:address/f:state",
+	"xpathUsage": "normal",
+	"multipleOr": true,
+	"multipleAnd": true,
+	"modifier": [
+		"exact",
+		"contains"
+	]
+}
