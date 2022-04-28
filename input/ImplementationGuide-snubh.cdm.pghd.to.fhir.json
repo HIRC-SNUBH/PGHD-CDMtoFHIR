@@ -1,18 +1,13 @@
 {
-	"id": "snubh.cdm.pghd.to.fhir",
-	"meta": {
-		"versionId": "649",
-		"lastUpdated": "2022-04-27T09:45:00.320+09:00",
-		"source": "#hX4SxvSpCxm06GLn"
-	},
 	"resourceType": "ImplementationGuide",
+	"id": "snubh.cdm.pghd.to.fhir",		
 	"status": "draft",
 	"fhirVersion": [
 		"4.0.1"
 	],
 	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ImplementationGuide/snubh.cdm.pghd.to.fhir",
 	"version": "1.1.0",
-	"name": "CDMPGHDToFHIR",
+	"name": "CDMPGHDToFHIR2",
 	"title": "CDM PGHD to FHIR",
 	"experimental": false,
 	"date": "2022-04-27",
