@@ -2,11 +2,11 @@
 	"resourceType": "Observation",
 	"id": "2018587611-45770187-20180912",
 	"meta": {
-		"versionId": "11",
-		"lastUpdated": "2022-04-20T07:54:01.458+00:00",
-		"source": "#Jgkgunl4oJdqU8eN",
+		"versionId": "9",
+		"lastUpdated": "2022-04-05T04:55:57.978+00:00",
+		"source": "#VrkKQpiSJn7GcRmp",
 		"profile": [
-			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-observationcomponent"
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-ObservationComponent"
 		]
 	},
 	"contained": [
@@ -26,11 +26,11 @@
 	],
 	"extension": [
 		{
-			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming",
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStartTiming",
 			"valueDate": "2018-09-12"
 		},
 		{
-			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming",
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseEndTiming",
 			"valueDate": "2018-09-12"
 		}
 	],

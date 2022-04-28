@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-observation-component-patient",
+	"id": "PGHD-CDM-observation-component-patient",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:11:17.047+00:00",
 		"source": "#UyxzTN1GhHKzNwMY"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-component-patient",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-observation-component-patient",
 	"version": "0.1",
 	"name": "PGHDCDMObservationComponentPatient",
 	"status": "draft",

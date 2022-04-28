@@ -1,14 +1,14 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-observation-device-use-end-timing",
+	"id": "PGHD-CDM-observation-device-use-end-timing",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:09:39.000+00:00",
 		"source": "#6ZWkdcUpSyN7cIo6"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-device-use-end-timing",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-observation-device-use-end-timing",
 	"version": "0.1",
-	"name": "PGHDCDMObservationDeviceUseEndTiming",
+	"name": "PGHDCDMObservationDeviceEndStartTiming",
 	"status": "draft",
 	"experimental": true,
 	"date": "2022-02-07",
@@ -31,8 +31,8 @@
 		"Observation"
 	],
 	"type": "date",
-	"expression": "Observation.extension.where(url = 'https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming').value",
-	"xpath": "f:Observation/f:extension[@url='https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming']/f:valueDate",
+	"expression": "Observation.extension.where(url = 'https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseEndTiming').value",
+	"xpath": "f:Observation/f:extension[@url='https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseEndTiming']/f:valueDate",
 	"xpathUsage": "normal",
 	"multipleOr": true,
 	"multipleAnd": true,

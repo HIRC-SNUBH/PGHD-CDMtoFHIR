@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "pghd-cdm-respondenttype",
+	"id": "PGHD-CDM-RespondentType",
 	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-20T08:50:09.262+00:00",
-		"source": "#rzUFkHVOqcSpBbhy"
+		"versionId": "7",
+		"lastUpdated": "2022-04-04T08:25:45.356+00:00",
+		"source": "#3xJLBopSQwsV5Hq6"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-respondenttype",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-RespondentType",
 	"version": "0.1",
 	"name": "PGHDCDMRespondentTypeExtension",
 	"title": "PGHD CDM RespondentType Extension",
@@ -42,7 +42,7 @@
 						"code": "uri"
 					}
 				],
-				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-respondenttype"
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-RespondentType"
 			},
 			{
 				"id": "Extension.value[x]",

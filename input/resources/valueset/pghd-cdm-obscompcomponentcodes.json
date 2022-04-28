@@ -1,12 +1,12 @@
 {
 	"resourceType": "ValueSet",
-	"id": "pghd-cdm-obscompcomponentcodes",
+	"id": "PGHD-CDM-ObsCompComponentCodes",
 	"meta": {
-		"versionId": "2",
-		"lastUpdated": "2022-04-20T01:34:59.417+00:00",
-		"source": "#VyXDwbqAlnX9HnDZ"
+		"versionId": "3",
+		"lastUpdated": "2022-04-06T07:05:24.015+00:00",
+		"source": "#6cTOYVsipMFxLT7v"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-obscompcomponentcodes",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-ObsCompComponentCodes",
 	"name": "PGHDCDMObsCompComponentCodes",
 	"title": "PGHD CDM ObsCompComponentCodes",
 	"status": "draft",

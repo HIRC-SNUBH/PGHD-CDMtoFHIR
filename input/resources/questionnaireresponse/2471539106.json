@@ -2,11 +2,11 @@
 	"resourceType": "QuestionnaireResponse",
 	"id": "2471539106",
 	"meta": {
-		"versionId": "20",
-		"lastUpdated": "2022-04-20T08:00:54.175+00:00",
-		"source": "#5pPWRYdg6dPpAvko",
+		"versionId": "19",
+		"lastUpdated": "2022-04-07T00:56:09.651+00:00",
+		"source": "#2TipiQKYfMCahg4Q",
 		"profile": [
-			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireresponse"
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireResponse"
 		]
 	},
 	"contained": [
@@ -64,7 +64,7 @@
 	],
 	"extension": [
 		{
-			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-respondenttype",
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-RespondentType",
 			"valueCoding": {
 				"system": "https://athena.ohdsi.org/",
 				"code": "No matching concept",
@@ -72,7 +72,7 @@
 			}
 		},
 		{
-			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod",
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-CollectionMethod",
 			"valueCoding": {
 				"system": "http://loinc.org/downloads/loinc",
 				"code": "LA26662-9",
@@ -90,7 +90,7 @@
 		{
 			"extension": [
 				{
-					"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype",
+					"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireItemSourceDataType",
 					"valueCoding": {
 						"system": "https://athena.ohdsi.org/",
 						"code": "OMOP4822321",
@@ -112,7 +112,7 @@
 		{
 			"extension": [
 				{
-					"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype",
+					"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireItemSourceDataType",
 					"valueCoding": {
 						"system": "https://athena.ohdsi.org/",
 						"code": "OMOP4822321",
@@ -134,7 +134,7 @@
 		{
 			"extension": [
 				{
-					"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype",
+					"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireItemSourceDataType",
 					"valueCoding": {
 						"system": "https://athena.ohdsi.org/",
 						"code": "OMOP4822321",

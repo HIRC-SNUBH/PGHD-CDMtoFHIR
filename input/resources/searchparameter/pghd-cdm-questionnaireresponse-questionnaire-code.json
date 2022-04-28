@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-questionnaireresponse-questionnaire-code",
+	"id": "PGHD-CDM-questionnaireresponse-questionnaire-code",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:05:03.136+00:00",
 		"source": "#SUme63o1cW7OH9Zp"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaireresponse-questionnaire-code",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-questionnaireresponse-questionnaire-code",
 	"version": "0.1",
 	"name": "PGHDCDMQuestionnaireResponseQuestionnaireCode",
 	"status": "draft",

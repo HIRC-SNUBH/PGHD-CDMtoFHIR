@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "pghd-cdm-deviceusestarttiming",
+	"id": "PGHD-CDM-DeviceUseStartTiming",
 	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-20T08:48:36.825+00:00",
-		"source": "#Ax5BWvJhbfi8id1a"
+		"versionId": "7",
+		"lastUpdated": "2022-04-04T08:24:50.003+00:00",
+		"source": "#MGfIAYeGjV71T5oC"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStartTiming",
 	"version": "0.1",
 	"name": "PGHDCDMDeviceUseStartTimingExtension",
 	"title": "PGHD CDM DeviceUseStartTiming Extension",
@@ -43,7 +43,7 @@
 						"code": "uri"
 					}
 				],
-				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming"
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStartTiming"
 			},
 			{
 				"id": "Extension.value[x]",

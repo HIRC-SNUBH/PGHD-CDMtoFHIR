@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-observation-component-device-use-start-timing",
+	"id": "PGHD-CDM-observation-component-device-use-start-timing",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:02:28.662+00:00",
 		"source": "#DZgJA70iOrixWTUu"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-component-device-use-start-timing",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-observation-component-device-use-start-timing",
 	"version": "0.1",
 	"name": "PGHDCDMObservationComponentDeviceUseStartTiming",
 	"status": "draft",
@@ -31,8 +31,8 @@
 		"Observation"
 	],
 	"type": "date",
-	"expression": "Observation.extension.where(url = 'https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming').value",
-	"xpath": "f:Observation/f:extension[@url='https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestarttiming']/f:valueDate",
+	"expression": "Observation.extension.where(url = 'https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStartTiming').value",
+	"xpath": "f:Observation/f:extension[@url='https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStartTiming']/f:valueDate",
 	"xpathUsage": "normal",
 	"multipleOr": true,
 	"multipleAnd": true,

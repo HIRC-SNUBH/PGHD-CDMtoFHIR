@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-questionnaire-status",
+	"id": "PGHD-CDM-questionnaire-status",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:13:56.976+00:00",
 		"source": "#z56jDdhdEN34f8ZE"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaire-status",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-questionnaire-status",
 	"version": "0.1",
 	"name": "PGHDCDMQuestionnaireStatus",
 	"status": "draft",

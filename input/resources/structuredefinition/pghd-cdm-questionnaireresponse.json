@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "pghd-cdm-questionnaireresponse",
+	"id": "PGHD-CDM-QuestionnaireResponse",
 	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-20T02:12:12.205+00:00",
-		"source": "#mKZa9FTSk7FatlDp"
+		"versionId": "31",
+		"lastUpdated": "2022-04-06T07:24:36.000+00:00",
+		"source": "#TYHdD20jXiQXm1Hi"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireresponse",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireResponse",
 	"version": "1.0.0",
 	"name": "PGHDCDMQuestionnaireResponseProfile",
 	"title": "PGHD CDM QuestionnaireResponse Profile",
@@ -57,7 +57,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-respondenttype"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-RespondentType"
 						]
 					}
 				],
@@ -74,7 +74,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethod"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-CollectionMethod"
 						]
 					}
 				],
@@ -91,7 +91,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-timingsource"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-TimingSource"
 						]
 					}
 				]
@@ -107,7 +107,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-collectionmethodsource"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-CollectionMethodSource"
 						]
 					}
 				]
@@ -121,7 +121,7 @@
 					{
 						"code": "canonical",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaire"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Questionnaire"
 						]
 					}
 				],
@@ -136,7 +136,7 @@
 					{
 						"code": "Reference",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-patient"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Patient"
 						]
 					}
 				],
@@ -150,7 +150,7 @@
 					{
 						"code": "Reference",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-encounter"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Encounter"
 						]
 					}
 				],
@@ -191,7 +191,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaireitemsourcedatatype"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-QuestionnaireItemSourceDataType"
 						]
 					}
 				],
@@ -226,7 +226,7 @@
 				],
 				"binding": {
 					"strength": "extensible",
-					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-questionnaireresponsecodes"
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-QuestionnaireResponseCodes"
 				}
 			}
 		]

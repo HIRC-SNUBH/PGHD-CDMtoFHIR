@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-encounter-id",
+	"id": "PGHD-CDM-encounter-id",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:08:24.872+00:00",
 		"source": "#dX3fhhpVVfv78BlG"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-encounter-id",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-encounter-id",
 	"version": "0.1",
 	"name": "PGHDCDMEncounterId",
 	"status": "draft",

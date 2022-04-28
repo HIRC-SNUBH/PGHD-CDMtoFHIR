@@ -1,12 +1,12 @@
 {
 	"resourceType": "DeviceUseStatement",
-	"id": "2342552568",
+	"id": "2342552567",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-04-20T07:44:39.194+00:00",
-		"source": "#YAGMCnMYzHJPati0",
+		"versionId": "8",
+		"lastUpdated": "2022-04-05T04:55:46.236+00:00",
+		"source": "#0ksqGoVjBmJ8KaFL",
 		"profile": [
-			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestatement"
+			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStatement"
 		]
 	},
 	"contained": [
@@ -26,7 +26,7 @@
 	],
 	"extension": [
 		{
-			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-devicetype",
+			"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceType",
 			"valueCoding": {
 				"system": "https://athena.ohdsi.org/",
 				"code": "OMOP4822236",

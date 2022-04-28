@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-questionnaireresponse-encounter",
+	"id": "PGHD-CDM-questionnaireresponse-encounter",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:14:13.416+00:00",
 		"source": "#RjZw4Qpjk13Bxkth"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-questionnaireresponse-encounter",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-questionnaireresponse-encounter",
 	"version": "0.1",
 	"name": "PGHDCDMQuestionnaireResponseEncounter",
 	"status": "draft",

@@ -1,12 +1,12 @@
 {
 	"resourceType": "ValueSet",
-	"id": "pghd-cdm-actencountercode",
+	"id": "PGHD-CDM-ActEncounterCode",
 	"meta": {
 		"versionId": "2",
-		"lastUpdated": "2022-04-20T01:19:04.462+00:00",
-		"source": "#wov8Ps8fn84dZx3p"
+		"lastUpdated": "2022-03-30T04:27:34.624+00:00",
+		"source": "#ynG5xoOQsC1LDIGr"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-actencountercode",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-ActEncounterCode",
 	"version": "0.1",
 	"name": "PGHDCDMActEncounterCode",
 	"title": "PGHD CDM ActEncounterCode",

@@ -4,10 +4,7 @@
 	"meta": {
 		"versionId": "3",
 		"lastUpdated": "2022-04-07T01:08:26.824+00:00",
-		"source": "#BFodGcV4fIsdhHpz",
-		"profile": [
-			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaire"
-		]
+		"source": "#BFodGcV4fIsdhHpz"
 	},
 	"title": "건강증진센터 건강기록지 신문진",
 	"status": "active",

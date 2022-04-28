@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-observation-device-type",
+	"id": "PGHD-CDM-observation-device-type",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:09:39.000+00:00",
 		"source": "#oBHn3X6LKAm7zsYT"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-device-type",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-observation-device-type",
 	"version": "0.1",
 	"name": "PGHDCDMObservationDeviceType",
 	"status": "draft",

@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "pghd-cdm-questionnaire",
+	"id": "PGHD-CDM-Questionnaire",
 	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-20T02:17:19.348+00:00",
-		"source": "#Q9ZXgePPvp77MKTI"
+		"versionId": "7",
+		"lastUpdated": "2022-04-06T07:24:02.592+00:00",
+		"source": "#H2pwYFTawWzT09hM"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-questionnaire",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Questionnaire",
 	"version": "0.1",
 	"name": "PGHDCDMQuestionnaireProfile",
 	"title": "PGHD CDM Questionnaire Profile",
@@ -88,7 +88,7 @@
 				"mustSupport": true,
 				"binding": {
 					"strength": "extensible",
-					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-questionnairecodes"
+					"valueSet": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-QuestionnaireCodes"
 				}
 			}
 		]

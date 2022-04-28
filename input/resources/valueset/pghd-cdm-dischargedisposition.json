@@ -1,12 +1,12 @@
 {
 	"resourceType": "ValueSet",
-	"id": "pghd-cdm-dischargedisposition",
+	"id": "PGHD-CDM-DischargeDisposition",
 	"meta": {
-		"versionId": "2",
-		"lastUpdated": "2022-04-20T01:34:42.411+00:00",
-		"source": "#jkDaMJ7i49Y5JKfS"
+		"versionId": "5",
+		"lastUpdated": "2022-04-06T07:04:46.789+00:00",
+		"source": "#CcOnoLHDdyV74cnj"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/pghd-cdm-dischargedisposition",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ValueSet/PGHD-CDM-DischargeDisposition",
 	"name": "PGHDCDMDischargeDisposition",
 	"title": "PGHD CDM DischargeDisposition",
 	"status": "draft",

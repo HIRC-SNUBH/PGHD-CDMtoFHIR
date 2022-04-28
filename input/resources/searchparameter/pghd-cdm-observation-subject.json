@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-observation-subject",
+	"id": "PGHD-CDM-observation-subject",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:01:58.432+00:00",
 		"source": "#AYvR8cBbifvPIN4e"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-observation-subject",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-observation-subject",
 	"version": "0.1",
 	"name": "PGHDCDMObservationSubject",
 	"status": "draft",

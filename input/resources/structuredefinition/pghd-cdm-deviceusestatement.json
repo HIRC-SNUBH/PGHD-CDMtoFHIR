@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "pghd-cdm-deviceusestatement",
+	"id": "PGHD-CDM-DeviceUseStatement",
 	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-20T01:57:54.503+00:00",
-		"source": "#GRQ3Xn5wo4zZOORE"
+		"versionId": "9",
+		"lastUpdated": "2022-04-04T08:49:26.024+00:00",
+		"source": "#hVkOV6fbyRtLTutG"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceusestatement",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStatement",
 	"version": "0.1",
 	"name": "PGHDCDMDeviceUseStatementProfile",
 	"title": "PGHD CDM DeviceUseStatement Profile",
@@ -44,7 +44,7 @@
 					{
 						"code": "Extension",
 						"profile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-devicetype"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceType"
 						]
 					}
 				],
@@ -58,7 +58,7 @@
 					{
 						"code": "Reference",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-patient"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Patient"
 						]
 					}
 				],
@@ -84,7 +84,7 @@
 					{
 						"code": "Reference",
 						"targetProfile": [
-							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-device"
+							"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Device"
 						]
 					}
 				],

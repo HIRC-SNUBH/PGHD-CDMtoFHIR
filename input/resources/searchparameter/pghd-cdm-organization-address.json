@@ -1,12 +1,12 @@
 {
 	"resourceType": "SearchParameter",
-	"id": "pghd-cdm-organization-address",
+	"id": "PGHD-CDM-organization-address",
 	"meta": {
 		"versionId": "1",
 		"lastUpdated": "2022-03-29T01:11:59.051+00:00",
 		"source": "#Sowt3pGBczCYAYFE"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/pghd-cdm-organization-address",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/SearchParameter/PGHD-CDM-organization-address",
 	"version": "0.1",
 	"name": "PGHDCDMOrganizationAddress",
 	"status": "draft",

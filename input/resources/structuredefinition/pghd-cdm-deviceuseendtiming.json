@@ -1,12 +1,12 @@
 {
 	"resourceType": "StructureDefinition",
-	"id": "pghd-cdm-deviceuseendtiming",
+	"id": "PGHD-CDM-DeviceUseEndTiming",
 	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-20T08:47:34.911+00:00",
-		"source": "#cZvf9tCfKDTjhqUF"
+		"versionId": "7",
+		"lastUpdated": "2022-04-04T08:24:28.483+00:00",
+		"source": "#U6IEAtqkRfDy2TEx"
 	},
-	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming",
+	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseEndTiming",
 	"version": "0.1",
 	"name": "PGHDCDMDeviceUseEndTimingExtension",
 	"title": "PGHD CDM DeviceUseEndTiming Extension",
@@ -42,7 +42,7 @@
 						"code": "uri"
 					}
 				],
-				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/pghd-cdm-deviceuseendtiming"
+				"fixedUri": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseEndTiming"
 			},
 			{
 				"id": "Extension.value[x]",
