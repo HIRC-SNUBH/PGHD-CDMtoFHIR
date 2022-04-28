@@ -1,11 +1,6 @@
 {
 	"resourceType": "CodeSystem",
-	"id": "v3-ucum",
-	"meta": {
-		"versionId": "5",
-		"lastUpdated": "2022-02-18T07:47:57.707+00:00",
-		"source": "#xTfgc4LpKakMVCXb"
-	},
+	"id": "v3-ucum",	
 	"language": "en",
 	"text": {
 		"status": "generated",

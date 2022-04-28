@@ -1,11 +1,6 @@
 {
 	"resourceType": "OperationDefinition",
-	"id": "readsnapshot",
-	"meta": {
-		"versionId": "7",
-		"lastUpdated": "2022-03-28T04:43:31.580+00:00",
-		"source": "#Pfswr3MDsJ7l4iJo"
-	},
+	"id": "readsnapshot",	
 	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/OperationDefinition/readsnapshot",
 	"version": "0.1",
 	"name": "readsnapshot",

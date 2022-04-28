@@ -1,11 +1,6 @@
 {
 	"resourceType": "CodeSystem",
-	"id": "loinc",
-	"meta": {
-		"versionId": "11",
-		"lastUpdated": "2022-04-07T01:07:48.141+00:00",
-		"source": "#DEI8EC6E0ZuSBHgB"
-	},
+	"id": "loinc",	
 	"url": "http://loinc.org/downloads/loinc",
 	"name": "LOINC",
 	"title": "Logical Observation Identifiers Names and Codes",

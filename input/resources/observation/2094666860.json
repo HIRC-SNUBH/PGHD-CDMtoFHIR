@@ -1,10 +1,7 @@
 {
 	"resourceType": "Observation",
 	"id": "2094666860",
-	"meta": {
-		"versionId": "5",
-		"lastUpdated": "2022-04-04T08:29:42.121+00:00",
-		"source": "#dJob3EJl6fsYUwbM",
+	"meta": {		
 		"profile": [
 			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-Observation"
 		]

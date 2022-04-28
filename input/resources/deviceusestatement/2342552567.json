@@ -1,10 +1,7 @@
 {
 	"resourceType": "DeviceUseStatement",
 	"id": "2342552567",
-	"meta": {
-		"versionId": "8",
-		"lastUpdated": "2022-04-05T04:55:46.236+00:00",
-		"source": "#0ksqGoVjBmJ8KaFL",
+	"meta": {		
 		"profile": [
 			"https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/StructureDefinition/PGHD-CDM-DeviceUseStatement"
 		]

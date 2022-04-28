@@ -1,11 +1,6 @@
 {
 	"resourceType": "Organization",
-	"id": "1100",
-	"meta": {
-		"versionId": "3",
-		"lastUpdated": "2022-04-04T05:20:48.244+00:00",
-		"source": "#iH6OgCccqCuiYK7N"
-	},
+	"id": "1100",	
 	"type": [
 		{
 			"coding": [
