@@ -1,7 +1,5 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="profiles_and_extensions.html">Profiles and Extensions</a></li>
-  <li><a href="search_parameters_and_operations.html">Search Parameters and Operations</a></li>
-  <li><a href="terminology.html">Terminology</a></li>
-  <li><a href="downloads.html">Downloads</a></li>
+  <li><a href="index.html">IG Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="artifacts.html">Artifact Index</a></li>
 </ul>
