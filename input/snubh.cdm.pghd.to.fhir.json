@@ -6,11 +6,11 @@
 		"4.0.1"
 	],
 	"url": "https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ImplementationGuide/snubh.cdm.pghd.to.fhir",
-	"version": "3.0.0",
+	"version": "1.0.0",
 	"name": "CDMPGHDToFHIR",
 	"title": "CDM PGHD to FHIR",
 	"experimental": false,
-	"date": "2022-04-27",
+	"date": "2022-05-02",
 	"publisher": "SNUBH-HIRC",
 	"contact": [
 		{

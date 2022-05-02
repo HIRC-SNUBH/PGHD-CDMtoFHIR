@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="snubh.cdm.pghd.to.fhir"/>
-   <meta>
-      <versionId value="649"/>
-      <lastUpdated value="2022-04-27T09:45:00.320+09:00"/>
-      <source value="#hX4SxvSpCxm06GLn"/>
-   </meta>
    <text>
       <status value="extensions"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -33,12 +28,12 @@
       </div>
    </text>
    <url value="https://build.fhir.org/ig/HIRC-SNUBH/PGHD-CDMtoFHIR/ImplementationGuide/snubh.cdm.pghd.to.fhir"/>
-   <version value="1.1.0"/>
+   <version value="1.0.0"/>
    <name value="CDMPGHDToFHIR"/>
    <title value="CDM PGHD to FHIR"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2022-04-27"/>
+   <date value="2022-05-02"/>
    <publisher value="SNUBH-HIRC"/>
    <contact>
       <name value="Seoul National University Bundang Hospital"/>
