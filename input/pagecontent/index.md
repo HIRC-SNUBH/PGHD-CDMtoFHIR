@@ -13,8 +13,6 @@ CDM PGHD to FHIR 는 CDM PGHD 데이터를 FHIR Resource 로 변환하는 데 �
 - [Terminology](terminology.html) : Terminology 페이지
 - [Downloads](downloads.html) : 다운로드 페이지
 
-
-
 ### Authors
 
 <table>
@@ -32,4 +30,19 @@ CDM PGHD to FHIR 는 CDM PGHD 데이터를 FHIR Resource 로 변환하는 데 �
 </tbody>
 </table>
 
+### Reference
 
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PGHD (Patient-Generated Health Data)의 OMOP CDM 변환 가이드라인</td>
+<td><a href="https://github.com/HIRC-SNUBH/PGHD_conversion_guide" target="_new">https://github.com/HIRC-SNUBH/PGHD_conversion_guide</a></td>
+</tr>
+</tbody>
+</table>
