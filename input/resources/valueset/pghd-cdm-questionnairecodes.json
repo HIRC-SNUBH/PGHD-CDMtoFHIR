@@ -50,11 +50,31 @@
 				]
 			},
 			{
-				"system": "https://athena.ohdsi.org/",
+				"system": "https://www.cdm.snubh.org/Atlas",
 				"concept": [
 					{
 						"code": "SNUBH0047",
 						"display": "How fast do you eat meals?"
+					},
+					{
+						"code": "SNUBH0140",
+						"display": "For the past 1 month, have you ever suffered from severe hardships that were emotionally and physically intolerable?"
+					},
+					{
+						"code": "SNUBH0141",
+						"display": "For the past 1 month, have you ever felt frustrated trying to act up to your conviction or faith?"
+					},
+					{
+						"code": "SNUBH0142",
+						"display": "For The Past 1 Month, Have You Ever Felt That Your Circumstances Were Insufficient To Live Humanly?"
+					},
+					{
+						"code": "SNUBH0143",
+						"display": "For the past 1 month, have you ever felt uncertain or uneasy about your future?"
+					},
+					{
+						"code": "SNUBH0144",
+						"display": "For the past 1 month, have you ever had many things to do, so you forgot to do the things that were really important to you?"
 					}
 				]
 			},
